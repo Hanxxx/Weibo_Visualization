@@ -1,0 +1,745 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+11.py	test/old/spider/spider/Spider/11.py	1;"	kind:file	line:1
+22.py	test/old/spider/spider/Spider/my/22.py	1;"	kind:file	line:1
+CHAR_STATE_TAB_P	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^CHAR_STATE_TAB_P = "char_state_tab.p"$/;"	kind:variable	line:13
+ChineseAnalyzer	test/old/spider/spider/Spider/my/jieba/analyse/analyzer.py	/^def ChineseAnalyzer(stoplist=STOP_WORDS, minsize=1, stemfn=stem, cachesize=50000):$/;"	kind:function	line:34
+ChineseTokenizer	test/old/spider/spider/Spider/my/jieba/analyse/analyzer.py	/^class ChineseTokenizer(Tokenizer):$/;"	kind:class	line:19
+CollectData	test/old/spider/spider/Spider/my/weibotest1.py	/^class CollectData():$/;"	kind:class	line:9
+DEFAULT_DICT	test/old/spider/spider/Spider/my/jieba/__init__.py	/^DEFAULT_DICT = _get_module_path("dict.txt")$/;"	kind:variable	line:27
+DEFAULT_IDF	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^DEFAULT_IDF = _get_module_path("idf.txt")$/;"	kind:variable	line:12
+DEFAULT_URL	test/old/spider/spider/Spider/my/ez_setup.py	/^DEFAULT_URL     = "http:\/\/pypi.python.org\/packages\/%s\/s\/setuptools\/" % sys.version[:3]$/;"	kind:variable	line:18
+DEFAULT_VERSION	test/old/spider/spider/Spider/my/ez_setup.py	/^DEFAULT_VERSION = "0.6c11"$/;"	kind:variable	line:17
+DICT_WRITING	test/old/spider/spider/Spider/my/jieba/__init__.py	/^DICT_WRITING = {}$/;"	kind:variable	line:34
+G	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^G = nx.Graph()$/;"	kind:variable	line:23
+G	test/old/spider/weibo_forward_analysis/network_graph.py	/^G = nx.Graph()$/;"	kind:variable	line:23
+GetIP	test/old/spider/spider/Spider/getip.py	/^class GetIP(object):$/;"	kind:class	line:5
+GetIP	test/old/spider/spider/Spider/task1-getip.py	/^class GetIP(object):$/;"	kind:class	line:5
+GetServerTime	test/old/spider/spider/Python爬虫/WeiboLogin.py	/^    def GetServerTime(self):$/;"	kind:member	line:50
+GetUserName	test/old/spider/spider/Python爬虫/WeiboEncode.py	/^def GetUserName(userName):$/;"	kind:function	line:43
+IDFLoader	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^class IDFLoader(object):$/;"	kind:class	line:35
+KeywordExtractor	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^class KeywordExtractor(object):$/;"	kind:class	line:15
+Login	test/old/spider/SpiderOfWeibo/weibo/weibo_main.py	/^	Login = WeiboLogin('17089368196', 'tttt5555')$/;"	kind:variable	line:7
+Login	test/old/spider/spider/Python爬虫/WeiboLogin.py	/^    def Login(self):$/;"	kind:member	line:20
+Login	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	/^	Login = WeiboLogin('用户名', '密码')$/;"	kind:variable	line:10
+Login	test/old/spider/weibo_forward_analysis/weibo_main.py	/^	Login = WeiboLogin('18813298638', '644179052')$/;"	kind:variable	line:10
+MIN_FLOAT	test/old/spider/spider/Spider/my/jieba/finalseg/__init__.py	/^MIN_FLOAT = -3.14e100$/;"	kind:variable	line:8
+MIN_FLOAT	test/old/spider/spider/Spider/my/jieba/posseg/viterbi.py	/^MIN_FLOAT = -3.14e100$/;"	kind:variable	line:3
+MIN_INF	test/old/spider/spider/Spider/my/jieba/posseg/viterbi.py	/^MIN_INF = float("-inf")$/;"	kind:variable	line:4
+P	test/old/spider/spider/Spider/my/jieba/finalseg/prob_emit.py	/^P={'B': {'\\u4e00': -3.6544978750449433,$/;"	kind:variable	line:3
+P	test/old/spider/spider/Spider/my/jieba/finalseg/prob_start.py	/^P={'B': -0.26268660809250016,$/;"	kind:variable	line:1
+P	test/old/spider/spider/Spider/my/jieba/finalseg/prob_trans.py	/^P={'B': {'E': -0.510825623765990, 'M': -0.916290731874155},$/;"	kind:variable	line:1
+P	test/old/spider/spider/Spider/my/jieba/posseg/char_state_tab.py	/^P={'\\u4e00': (('B', 'm'),$/;"	kind:variable	line:3
+P	test/old/spider/spider/Spider/my/jieba/posseg/prob_emit.py	/^P={('B', 'a'): {'\\u4e00': -3.618715666782108,$/;"	kind:variable	line:3
+P	test/old/spider/spider/Spider/my/jieba/posseg/prob_start.py	/^P={('B', 'a'): -4.762305214596967,$/;"	kind:variable	line:1
+P	test/old/spider/spider/Spider/my/jieba/posseg/prob_trans.py	/^P={('B', 'a'): {('E', 'a'): -0.0050648453069648755,$/;"	kind:variable	line:1
+POSTokenizer	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^class POSTokenizer(object):$/;"	kind:class	line:88
+PROB_EMIT_P	test/old/spider/spider/Spider/my/jieba/finalseg/__init__.py	/^PROB_EMIT_P = "prob_emit.p"$/;"	kind:variable	line:12
+PROB_EMIT_P	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^PROB_EMIT_P = "prob_emit.p"$/;"	kind:variable	line:12
+PROB_START_P	test/old/spider/spider/Spider/my/jieba/finalseg/__init__.py	/^PROB_START_P = "prob_start.p"$/;"	kind:variable	line:10
+PROB_START_P	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^PROB_START_P = "prob_start.p"$/;"	kind:variable	line:10
+PROB_TRANS_P	test/old/spider/spider/Spider/my/jieba/finalseg/__init__.py	/^PROB_TRANS_P = "prob_trans.p"$/;"	kind:variable	line:11
+PROB_TRANS_P	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^PROB_TRANS_P = "prob_trans.p"$/;"	kind:variable	line:11
+PostEncode	test/old/spider/spider/Python爬虫/WeiboEncode.py	/^def PostEncode(userName, passWord, serverTime, nonce, pubkey, rsakv):$/;"	kind:function	line:12
+PrevStatus	test/old/spider/spider/Spider/my/jieba/finalseg/__init__.py	/^PrevStatus = {$/;"	kind:variable	line:15
+STOP_WORDS	test/old/spider/spider/Spider/my/jieba/analyse/analyzer.py	/^STOP_WORDS = frozenset(('a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'can',$/;"	kind:variable	line:10
+STOP_WORDS	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^    STOP_WORDS = set(($/;"	kind:variable	line:17
+SetHP	test/old/spider/spider/Spider/sethp.py	/^class SetHP(object):$/;"	kind:class	line:6
+TFIDF	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^class TFIDF(KeywordExtractor):$/;"	kind:class	line:59
+Test	test/old/spider/SpiderOfWeibo/some_test/test.py	/^class Test(object):$/;"	kind:class	line:2
+Test	test/old/spider/spider/SpiderOfWeibo/some_test/test.py	/^class Test(object):$/;"	kind:class	line:2
+TextRank	test/old/spider/spider/Spider/my/jieba/analyse/textrank.py	/^class TextRank(KeywordExtractor):$/;"	kind:class	line:57
+Tokenizer	test/old/spider/spider/Spider/my/jieba/__init__.py	/^class Tokenizer(object):$/;"	kind:class	line:51
+UndirectWeightedGraph	test/old/spider/spider/Spider/my/jieba/analyse/textrank.py	/^class UndirectWeightedGraph:$/;"	kind:class	line:13
+WeiboEncode.py	test/old/spider/spider/Python爬虫/WeiboEncode.py	1;"	kind:file	line:1
+WeiboLogin	test/old/spider/SpiderOfWeibo/weibo/weibo_login.py	/^class WeiboLogin:$/;"	kind:class	line:12
+WeiboLogin	test/old/spider/spider/Python爬虫/WeiboLogin.py	/^class WeiboLogin:$/;"	kind:class	line:6
+WeiboLogin	test/old/spider/spider/Spider/my/moni.py	/^class WeiboLogin:$/;"	kind:class	line:37
+WeiboLogin	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_login.py	/^class WeiboLogin:$/;"	kind:class	line:12
+WeiboLogin	test/old/spider/weibo_forward_analysis/weibo_login.py	/^class WeiboLogin:$/;"	kind:class	line:12
+WeiboLogin.py	test/old/spider/spider/Python爬虫/WeiboLogin.py	1;"	kind:file	line:1
+WeiboMain.py	test/old/spider/spider/Python爬虫/WeiboMain.py	1;"	kind:file	line:1
+WeiboSearch.py	test/old/spider/spider/Python爬虫/WeiboSearch.py	1;"	kind:file	line:1
+__call__	test/old/spider/spider/Spider/my/jieba/analyse/analyzer.py	/^    def __call__(self, text, **kargs):$/;"	kind:member	line:21
+__cut	test/old/spider/spider/Spider/my/jieba/finalseg/__init__.py	/^def __cut(sentence):$/;"	kind:function	line:74
+__cut	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def __cut(self, sentence):$/;"	kind:member	line:126
+__cut_DAG	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def __cut_DAG(self, sentence):$/;"	kind:member	line:226
+__cut_DAG	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def __cut_DAG(self, sentence):$/;"	kind:member	line:184
+__cut_DAG_NO_HMM	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def __cut_DAG_NO_HMM(self, sentence):$/;"	kind:member	line:203
+__cut_DAG_NO_HMM	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def __cut_DAG_NO_HMM(self, sentence):$/;"	kind:member	line:161
+__cut_all	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def __cut_all(self, sentence):$/;"	kind:member	line:190
+__cut_detail	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def __cut_detail(self, sentence):$/;"	kind:member	line:144
+__cut_internal	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def __cut_internal(self, sentence, HMM=True):$/;"	kind:member	line:224
+__get_spwd	test/old/spider/spider/Spider/my/moni.py	/^ def __get_spwd(self):$/;"	kind:member	line:42
+__get_suser	test/old/spider/spider/Spider/my/moni.py	/^ def __get_suser(self):$/;"	kind:member	line:50
+__getattr__	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def __getattr__(self, name):$/;"	kind:member	line:97
+__init__	test/old/spider/SpiderOfWeibo/some_test/test.py	/^	def __init__(self, user):$/;"	kind:member	line:4
+__init__	test/old/spider/SpiderOfWeibo/weibo/weibo_login.py	/^	def __init__(self, user_name, user_password):$/;"	kind:member	line:15
+__init__	test/old/spider/spider/Python爬虫/WeiboLogin.py	/^    def __init__(self, user, pwd):$/;"	kind:member	line:7
+__init__	test/old/spider/spider/Spider/getip.py	/^	def __init__(self):$/;"	kind:member	line:10
+__init__	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def __init__(self, dictionary=DEFAULT_DICT):$/;"	kind:member	line:53
+__init__	test/old/spider/spider/Spider/my/jieba/analyse/textrank.py	/^    def __init__(self):$/;"	kind:member	line:16
+__init__	test/old/spider/spider/Spider/my/jieba/analyse/textrank.py	/^    def __init__(self):$/;"	kind:member	line:59
+__init__	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^    def __init__(self, idf_path=None):$/;"	kind:member	line:37
+__init__	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^    def __init__(self, idf_path=None):$/;"	kind:member	line:61
+__init__	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def __init__(self, tokenizer=None):$/;"	kind:member	line:90
+__init__	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def __init__(self, word, flag):$/;"	kind:member	line:65
+__init__	test/old/spider/spider/Spider/my/moni.py	/^ def __init__(self, username, password):$/;"	kind:member	line:38
+__init__	test/old/spider/spider/Spider/my/weibotest1.py	/^  def __init__(self, keyword, startTime, region, savedir, interval='50', flag=True, begin_url_per = "http:\/\/s.weibo.com\/weibo\/"):$/;"	kind:member	line:29
+__init__	test/old/spider/spider/Spider/sethp.py	/^	def __init__(self, url, header=None):$/;"	kind:member	line:17
+__init__	test/old/spider/spider/Spider/task1-getip.py	/^	def __init__(self):$/;"	kind:member	line:10
+__init__	test/old/spider/spider/SpiderOfWeibo/some_test/test.py	/^	def __init__(self, user):$/;"	kind:member	line:4
+__init__	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_login.py	/^	def __init__(self, user_name, user_password):$/;"	kind:member	line:15
+__init__	test/old/spider/weibo_forward_analysis/weibo_login.py	/^	def __init__(self, user_name, user_password):$/;"	kind:member	line:15
+__init__.py	test/old/spider/spider/Spider/my/jieba/__init__.py	1;"	kind:file	line:1
+__init__.py	test/old/spider/spider/Spider/my/jieba/analyse/__init__.py	1;"	kind:file	line:1
+__init__.py	test/old/spider/spider/Spider/my/jieba/finalseg/__init__.py	1;"	kind:file	line:1
+__init__.py	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	1;"	kind:file	line:1
+__iter__	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def __iter__(self):$/;"	kind:member	line:81
+__license__	test/old/spider/spider/Spider/my/jieba/__init__.py	/^__license__ = 'MIT'$/;"	kind:variable	line:3
+__main__.py	test/old/spider/spider/Spider/my/jieba/__main__.py	1;"	kind:file	line:1
+__prelogin	test/old/spider/spider/Spider/my/moni.py	/^ def __prelogin(self):$/;"	kind:member	line:55
+__repr__	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def __repr__(self):$/;"	kind:member	line:63
+__repr__	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def __repr__(self):$/;"	kind:member	line:72
+__repr__	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def __repr__(self):$/;"	kind:member	line:94
+__str__	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def __str__(self):$/;"	kind:member	line:75
+__unicode__	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def __unicode__(self):$/;"	kind:member	line:69
+__version__	test/old/spider/spider/Spider/my/jieba/__init__.py	/^__version__ = '0.37'$/;"	kind:variable	line:2
+_compat.py	test/old/spider/spider/Spider/my/jieba/_compat.py	1;"	kind:file	line:1
+_get_abs_path	test/old/spider/spider/Spider/my/jieba/__init__.py	/^_get_abs_path = lambda path: os.path.normpath(os.path.join(os.getcwd(), path))$/;"	kind:variable	line:25
+_get_abs_path	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^_get_abs_path = jieba._get_abs_path$/;"	kind:variable	line:10
+_get_module_path	test/old/spider/spider/Spider/my/jieba/__init__.py	/^_get_module_path = lambda path: os.path.normpath(os.path.join(os.getcwd(),$/;"	kind:variable	line:23
+_get_module_path	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^_get_module_path = lambda path: os.path.normpath(os.path.join(os.getcwd(),$/;"	kind:variable	line:8
+_lcut	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    _lcut = lcut$/;"	kind:variable	line:332
+_lcut	test/old/spider/spider/Spider/my/jieba/__init__.py	/^def _lcut(s):$/;"	kind:function	line:509
+_lcut_all	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def _lcut_all(self, sentence):$/;"	kind:member	line:338
+_lcut_all	test/old/spider/spider/Spider/my/jieba/__init__.py	/^def _lcut_all(s):$/;"	kind:function	line:505
+_lcut_all	test/old/spider/spider/Spider/my/jieba/__init__.py	/^def _lcut_all(s):$/;"	kind:function	line:513
+_lcut_for_search	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    _lcut_for_search = lcut_for_search$/;"	kind:variable	line:333
+_lcut_for_search	test/old/spider/spider/Spider/my/jieba/__init__.py	/^def _lcut_for_search(s):$/;"	kind:function	line:517
+_lcut_for_search_no_hmm	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def _lcut_for_search_no_hmm(self, sentence):$/;"	kind:member	line:341
+_lcut_for_search_no_hmm	test/old/spider/spider/Spider/my/jieba/__init__.py	/^def _lcut_for_search_no_hmm(s):$/;"	kind:function	line:521
+_lcut_internal	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def _lcut_internal(self, sentence):$/;"	kind:member	line:251
+_lcut_internal	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^def _lcut_internal(s):$/;"	kind:function	line:273
+_lcut_internal_no_hmm	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def _lcut_internal_no_hmm(self, sentence):$/;"	kind:member	line:254
+_lcut_internal_no_hmm	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^def _lcut_internal_no_hmm(s):$/;"	kind:function	line:277
+_lcut_no_hmm	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def _lcut_no_hmm(self, sentence):$/;"	kind:member	line:335
+_pcut	test/old/spider/spider/Spider/my/jieba/__init__.py	/^def _pcut(sentence, cut_all=False, HMM=True):$/;"	kind:function	line:525
+_pcut_for_search	test/old/spider/spider/Spider/my/jieba/__init__.py	/^def _pcut_for_search(sentence, HMM=True):$/;"	kind:function	line:538
+_replace_file	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    _replace_file = os.rename$/;"	kind:variable	line:21
+_validate_md5	test/old/spider/spider/Spider/my/ez_setup.py	/^def _validate_md5(egg_name, data):$/;"	kind:function	line:69
+a	test/old/spider/SpiderOfWeibo/Python/test.py	/^a = 10$/;"	kind:variable	line:5
+a	test/old/spider/SpiderOfWeibo/Python/test2.py	/^a = time.time()$/;"	kind:variable	line:3
+a	test/old/spider/spider/Python爬虫/test.py	/^a = urllib.quote("http:\/\/www.google.com")$/;"	kind:variable	line:5
+a	test/old/spider/spider/Spider/learning.py	/^a=10$/;"	kind:variable	line:19
+a	test/old/spider/spider/Spider/learning.py	/^a=int(random.uniform(1, 100))$/;"	kind:variable	line:32
+a	test/old/spider/spider/Spider/my/titleJieba.py	/^		a='jieba:'$/;"	kind:variable	line:68
+a	test/old/spider/spider/Spider/my/titleSpider.py	/^a=title_list[0]$/;"	kind:variable	line:67
+a	test/old/spider/spider/Spider/修改host上谷歌.py	/^    a=data.find('#google-hosts-2015')$/;"	kind:variable	line:26
+a	test/old/spider/spider/SpiderOfWeibo/Python_test/test.py	/^a = 10$/;"	kind:variable	line:5
+a	test/old/spider/spider/SpiderOfWeibo/Python_test/test2.py	/^a = time.time()$/;"	kind:variable	line:3
+a	test/old/spider/spider/SpiderOfWeibo/Python_test/test4.py	/^a =os.getpid()$/;"	kind:variable	line:4
+a	test/old/spider/spider/SpiderOfWeibo/some_test/test2.py	/^a = html.read()$/;"	kind:variable	line:7
+a	test/old/spider/spider/SpiderOfWeibo/weibo/test2.py	/^a=[1,2,3,4,5]$/;"	kind:variable	line:7
+a	test/old/spider/spider/SpiderOfWeibo/weibo/test3.py	/^a = html.read()$/;"	kind:variable	line:7
+accepted_chars	test/old/spider/spider/Spider/my/jieba/analyse/analyzer.py	/^accepted_chars = re.compile(r"[\\u4E00-\\u9FA5]+")$/;"	kind:variable	line:16
+addEdge	test/old/spider/spider/Spider/my/jieba/analyse/textrank.py	/^    def addEdge(self, start, end, weight):$/;"	kind:member	line:19
+add_headers	test/old/spider/spider/Spider/my/ipSpider.py	/^def add_headers(url):$/;"	kind:function	line:14
+add_headers	test/old/spider/spider/Spider/my/test.py	/^def add_headers(url):$/;"	kind:function	line:16
+add_headers	test/old/spider/spider/Spider/my/titleJieba.py	/^def add_headers(url):$/;"	kind:function	line:18
+add_proxy	test/old/spider/spider/Spider/my/test.py	/^def add_proxy(ip):$/;"	kind:function	line:11
+add_word	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def add_word(self, word, freq=None, tag=None):$/;"	kind:member	line:383
+add_word	test/old/spider/spider/Spider/my/jieba/__init__.py	/^add_word = dt.add_word$/;"	kind:variable	line:488
+analyzer.py	test/old/spider/spider/Spider/my/jieba/analyse/analyzer.py	1;"	kind:file	line:1
+args	test/old/spider/spider/Spider/my/jieba/__main__.py	/^args = parser.parse_args()$/;"	kind:variable	line:25
+array	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^array = numpy.array(rt_time)$/;"	kind:variable	line:20
+array	test/old/spider/weibo_forward_analysis/network_graph.py	/^array = numpy.array(rt_time)$/;"	kind:variable	line:20
+auto_login	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def auto_login():$/;"	kind:function	line:166
+auto_login	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def auto_login():$/;"	kind:function	line:166
+b	test/old/spider/SpiderOfWeibo/Python/test.py	/^b =  u'呵呵'.encode('utf-8')$/;"	kind:variable	line:6
+b	test/old/spider/spider/Python爬虫/test.py	/^b= base64.encodestring(a)[:-1]$/;"	kind:variable	line:6
+b	test/old/spider/spider/Spider/learning.py	/^b=5$/;"	kind:variable	line:20
+b	test/old/spider/spider/Spider/my/titleSpider.py	/^b=title_list[1]$/;"	kind:variable	line:68
+b	test/old/spider/spider/Spider/修改host上谷歌.py	/^    b=data.find('<br \/><\/div><\/div>')$/;"	kind:variable	line:29
+b	test/old/spider/spider/SpiderOfWeibo/Python_test/test.py	/^b =  u'呵呵'.encode('utf-8')$/;"	kind:variable	line:6
+b64	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def b64(sth):$/;"	kind:function	line:99
+b64	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def b64(sth):$/;"	kind:function	line:99
+betweenness	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^betweenness = nx.betweenness_centrality(G)$/;"	kind:variable	line:33
+betweenness	test/old/spider/weibo_forward_analysis/network_graph.py	/^betweenness = nx.betweenness_centrality(G)$/;"	kind:variable	line:33
+c	test/old/spider/SpiderOfWeibo/Python/test.py	/^c = ['hehe','haha','vv']$/;"	kind:variable	line:7
+c	test/old/spider/spider/Python爬虫/test.py	/^c = urllib.urlencode(postPara)$/;"	kind:variable	line:24
+c	test/old/spider/spider/Spider/learning.py	/^c=2$/;"	kind:variable	line:25
+c	test/old/spider/spider/SpiderOfWeibo/Python_test/test.py	/^c = ['hehe','haha','vv']$/;"	kind:variable	line:7
+calc	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def calc(self, sentence, DAG, route):$/;"	kind:member	line:164
+calc	test/old/spider/spider/Spider/my/jieba/__init__.py	/^calc = dt.calc$/;"	kind:variable	line:489
+change_refer	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def change_refer():$/;"	kind:function	line:36
+change_refer	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def change_refer():$/;"	kind:function	line:36
+char_state_tab.py	test/old/spider/spider/Spider/my/jieba/posseg/char_state_tab.py	1;"	kind:file	line:1
+check_initialized	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def check_initialized(self):$/;"	kind:member	line:160
+cj	test/old/spider/SpiderOfWeibo/some_test/test1.py	/^cj = cookielib.LWPCookieJar()$/;"	kind:variable	line:11
+cj	test/old/spider/SpiderOfWeibo/weibo/test.py	/^cj = cookielib.LWPCookieJar()$/;"	kind:variable	line:11
+cj	test/old/spider/spider/Spider/my/moni.py	/^cj = cookielib.LWPCookieJar()$/;"	kind:variable	line:12
+cj	test/old/spider/spider/SpiderOfWeibo/some_test/test1.py	/^cj = cookielib.LWPCookieJar()$/;"	kind:variable	line:11
+cj	test/old/spider/spider/SpiderOfWeibo/weibo/test.py	/^cj = cookielib.LWPCookieJar()$/;"	kind:variable	line:11
+closenesss	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^closenesss = nx.closeness_centrality(G)$/;"	kind:variable	line:32
+closenesss	test/old/spider/weibo_forward_analysis/network_graph.py	/^closenesss = nx.closeness_centrality(G)$/;"	kind:variable	line:32
+cookie	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^    cookie=urllib2.HTTPCookieProcessor(cookiejar)$/;"	kind:variable	line:50
+cookie	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^    cookie=urllib2.HTTPCookieProcessor(cookiejar)$/;"	kind:variable	line:50
+cookie_support	test/old/spider/SpiderOfWeibo/some_test/test1.py	/^cookie_support = urllib2.HTTPCookieProcessor(cj)$/;"	kind:variable	line:13
+cookie_support	test/old/spider/SpiderOfWeibo/weibo/test.py	/^cookie_support = urllib2.HTTPCookieProcessor(cj)$/;"	kind:variable	line:13
+cookie_support	test/old/spider/spider/Spider/my/moni.py	/^cookie_support = urllib2.HTTPCookieProcessor(cj)$/;"	kind:variable	line:13
+cookie_support	test/old/spider/spider/SpiderOfWeibo/some_test/test1.py	/^cookie_support = urllib2.HTTPCookieProcessor(cj)$/;"	kind:variable	line:13
+cookie_support	test/old/spider/spider/SpiderOfWeibo/weibo/test.py	/^cookie_support = urllib2.HTTPCookieProcessor(cj)$/;"	kind:variable	line:13
+cookiejar	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^    cookiejar=cookielib.LWPCookieJar(username)$/;"	kind:variable	line:49
+cookiejar	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^    cookiejar=cookielib.LWPCookieJar(username)$/;"	kind:variable	line:49
+count	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	/^	count = 0$/;"	kind:variable	line:30
+count	test/old/spider/weibo_forward_analysis/weibo_main.py	/^	count = 0$/;"	kind:variable	line:30
+creat_file	test/old/spider/spider/Spider/my/ipSpider.py	/^def creat_file():$/;"	kind:function	line:28
+creat_file	test/old/spider/spider/Spider/my/newsSpider.py	/^def creat_file(share_url,title):$/;"	kind:function	line:32
+creat_file	test/old/spider/spider/Spider/my/titleJieba.py	/^def creat_file():$/;"	kind:function	line:32
+creat_file	test/old/spider/spider/Spider/my/titleSpider.py	/^def creat_file():$/;"	kind:function	line:34
+cumulative	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/time_graph.py	/^cumulative = np.cumsum(values)$/;"	kind:variable	line:18
+cumulative	test/old/spider/weibo_forward_analysis/time_graph.py	/^cumulative = np.cumsum(values)$/;"	kind:variable	line:18
+cut	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def cut(self, sentence, cut_all=False, HMM=True):$/;"	kind:member	line:266
+cut	test/old/spider/spider/Spider/my/jieba/__init__.py	/^cut = dt.cut$/;"	kind:variable	line:490
+cut	test/old/spider/spider/Spider/my/jieba/finalseg/__init__.py	/^def cut(sentence):$/;"	kind:function	line:96
+cut	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def cut(self, sentence, HMM=True):$/;"	kind:member	line:257
+cut	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^def cut(sentence, HMM=True):$/;"	kind:function	line:281
+cut_for_search	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def cut_for_search(self, sentence, HMM=True):$/;"	kind:member	line:308
+cut_for_search	test/old/spider/spider/Spider/my/jieba/__init__.py	/^cut_for_search = dt.cut_for_search$/;"	kind:variable	line:492
+cutall	test/old/spider/spider/Spider/my/jieba/__main__.py	/^cutall = args.cutall$/;"	kind:variable	line:30
+d	test/old/spider/SpiderOfWeibo/Python/test.py	/^d = ('github','hehehe')$/;"	kind:variable	line:11
+d	test/old/spider/spider/Python爬虫/test.py	/^d = int(pubkey,16)$/;"	kind:variable	line:25
+d	test/old/spider/spider/Spider/my/jieba/analyse/textrank.py	/^    d = 0.85$/;"	kind:variable	line:14
+d	test/old/spider/spider/SpiderOfWeibo/Python_test/test.py	/^d = ('github','hehehe')$/;"	kind:variable	line:11
+data	test/old/spider/spider/Spider/my/ez_setup.py	/^            data = _validate_md5(egg_name, src.read())$/;"	kind:variable	line:161
+data	test/old/spider/spider/Spider/修改host上谷歌.py	/^    data=data[a:b].split("\\n")$/;"	kind:variable	line:32
+data	test/old/spider/spider/Spider/修改host上谷歌.py	/^data=urllib2.Request.urlopen(url).read().decode('utf-8')$/;"	kind:variable	line:21
+day	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^        day = time[1:5] + time[6:8] + time[9:11]$/;"	kind:variable	line:11
+day	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/time_graph.py	/^day = [(str(i)[0:10]+'-'+str(i)[11:13]) for i in rt_time]$/;"	kind:variable	line:13
+day	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/time_graph.py	/^day = [datetime.strptime(d, '%Y-%m-%d-%H') for d in day]$/;"	kind:variable	line:14
+day	test/old/spider/weibo_forward_analysis/network_graph.py	/^        day = time[1:5] + time[6:8] + time[9:11]$/;"	kind:variable	line:11
+day	test/old/spider/weibo_forward_analysis/time_graph.py	/^day = [(str(i)[0:10]+'-'+str(i)[11:13]) for i in rt_time]$/;"	kind:variable	line:13
+day	test/old/spider/weibo_forward_analysis/time_graph.py	/^day = [datetime.strptime(d, '%Y-%m-%d-%H') for d in day]$/;"	kind:variable	line:14
+day_weibo	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/time_graph.py	/^day_weibo = datetime.strptime('2015-12-07-10', '%Y-%m-%d-%H') #源微博发出时间$/;"	kind:variable	line:15
+day_weibo	test/old/spider/weibo_forward_analysis/time_graph.py	/^day_weibo = datetime.strptime('2015-12-07-10', '%Y-%m-%d-%H') #源微博发出时间$/;"	kind:variable	line:15
+decode_html	test/old/spider/SpiderOfWeibo/weibo/get_weibo.py	/^def decode_html(original_html):$/;"	kind:function	line:14
+decode_html	test/old/spider/spider/Python爬虫/get_weibo.py	/^def decode_html(original_html):$/;"	kind:function	line:14
+decode_html	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/get_weibo.py	/^def decode_html(original_html):$/;"	kind:function	line:81
+decode_html	test/old/spider/weibo_forward_analysis/get_weibo.py	/^def decode_html(original_html):$/;"	kind:function	line:81
+default_encoding	test/old/spider/spider/Spider/my/jieba/_compat.py	/^default_encoding = sys.getfilesystemencoding()$/;"	kind:variable	line:6
+default_logger	test/old/spider/spider/Spider/my/jieba/__init__.py	/^default_logger = logging.getLogger(__name__)$/;"	kind:variable	line:30
+default_textrank	test/old/spider/spider/Spider/my/jieba/analyse/__init__.py	/^default_textrank = TextRank()$/;"	kind:variable	line:10
+default_tfidf	test/old/spider/spider/Spider/my/jieba/analyse/__init__.py	/^default_tfidf = TFIDF()$/;"	kind:variable	line:9
+degree	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^degree = G.degree(G)$/;"	kind:variable	line:31
+degree	test/old/spider/weibo_forward_analysis/network_graph.py	/^degree = G.degree(G)$/;"	kind:variable	line:31
+del_word	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def del_word(self, word):$/;"	kind:member	line:402
+del_word	test/old/spider/spider/Spider/my/jieba/__init__.py	/^del_word = dt.del_word$/;"	kind:variable	line:494
+delim	test/old/spider/spider/Spider/my/jieba/__main__.py	/^delim = text_type(args.delimiter)$/;"	kind:variable	line:29
+disable_parallel	test/old/spider/spider/Spider/my/jieba/__init__.py	/^def disable_parallel():$/;"	kind:function	line:572
+do_download	test/old/spider/spider/Spider/my/ez_setup.py	/^    def do_download():$/;"	kind:function	line:96
+download	test/old/spider/spider/Spider/my/weibotest1.py	/^  def download(self, url, maxTryNum=4):$/;"	kind:member	line:81
+download_setuptools	test/old/spider/spider/Spider/my/ez_setup.py	/^def download_setuptools($/;"	kind:function	line:121
+draft.py	test/old/spider/spider/Spider/my/draft.py	1;"	kind:file	line:1
+dst	test/old/spider/spider/Spider/my/ez_setup.py	/^            dst = open(saveto,"wb"); dst.write(data)$/;"	kind:variable	line:162
+dt	test/old/spider/spider/Spider/my/jieba/__init__.py	/^dt = Tokenizer()$/;"	kind:variable	line:483
+dt	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^dt = POSTokenizer(jieba.dt)$/;"	kind:variable	line:266
+e	test/old/spider/SpiderOfWeibo/Python/test.py	/^e = (1,)$/;"	kind:variable	line:12
+e	test/old/spider/spider/Python爬虫/test.py	/^e = rsa.PublicKey(d,65537)$/;"	kind:variable	line:26
+e	test/old/spider/spider/SpiderOfWeibo/Python_test/test.py	/^e = (1,)$/;"	kind:variable	line:12
+egg_name	test/old/spider/spider/Spider/my/ez_setup.py	/^    egg_name = "setuptools-%s-py%s.egg" % (version,sys.version[:3])$/;"	kind:variable	line:133
+enableCookies	test/old/spider/SpiderOfWeibo/weibo/weibo_login.py	/^	def enableCookies(self):$/;"	kind:member	line:31
+enableCookies	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_login.py	/^	def enableCookies(self):$/;"	kind:member	line:31
+enableCookies	test/old/spider/weibo_forward_analysis/weibo_login.py	/^	def enableCookies(self):$/;"	kind:member	line:31
+enable_parallel	test/old/spider/spider/Spider/my/jieba/__init__.py	/^def enable_parallel(processnum=None):$/;"	kind:function	line:549
+encode	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def encode(self, arg):$/;"	kind:member	line:84
+encode.py	test/old/test/encode.py	1;"	kind:file	line:1
+encrypt_user_name	test/old/spider/SpiderOfWeibo/weibo/post_encode.py	/^def encrypt_user_name(original_user_name):$/;"	kind:function	line:8
+encrypt_user_name	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/post_encode.py	/^def encrypt_user_name(original_user_name):$/;"	kind:function	line:8
+encrypt_user_name	test/old/spider/weibo_forward_analysis/post_encode.py	/^def encrypt_user_name(original_user_name):$/;"	kind:function	line:8
+encrypt_user_password	test/old/spider/SpiderOfWeibo/weibo/post_encode.py	/^def encrypt_user_password(original_user_password, server_time, nonce , pubkey):$/;"	kind:function	line:16
+encrypt_user_password	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/post_encode.py	/^def encrypt_user_password(original_user_password, server_time, nonce , pubkey):$/;"	kind:function	line:16
+encrypt_user_password	test/old/spider/weibo_forward_analysis/post_encode.py	/^def encrypt_user_password(original_user_password, server_time, nonce , pubkey):$/;"	kind:function	line:16
+encrypted_user_password	test/old/test/encode.py	/^encrypted_user_password = binascii.b2a_hex(encrypted_user_password)$/;"	kind:variable	line:25
+encrypted_user_password	test/old/test/encode.py	/^encrypted_user_password = rsa.encrypt(message, key)$/;"	kind:variable	line:23
+extract_tags	test/old/spider/spider/Spider/my/jieba/analyse/textrank.py	/^    extract_tags = textrank$/;"	kind:variable	line:104
+extract_tags	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^    def extract_tags(self, *args, **kwargs):$/;"	kind:member	line:31
+extract_tags	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^    def extract_tags(self, sentence, topK=20, withWeight=False, allowPOS=()):$/;"	kind:member	line:75
+ez_setup.py	test/old/spider/spider/Spider/my/ez_setup.py	1;"	kind:file	line:1
+f	test/old/spider/SpiderOfWeibo/test.py	/^f = open("\/home\/ruansongsong\/work\/code", "wb")$/;"	kind:variable	line:13
+f	test/old/spider/spider/Python爬虫/test.py	/^f = rsa.encrypt("password",e)$/;"	kind:variable	line:27
+f	test/old/spider/spider/SpiderOfWeibo/test.py	/^f = open("\/home\/ruansongsong\/work\/code", "wb")$/;"	kind:variable	line:13
+fig	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^fig = plt.figure(figsize=(20, 10),facecolor='white')$/;"	kind:variable	line:41
+fig	test/old/spider/weibo_forward_analysis/network_graph.py	/^fig = plt.figure(figsize=(20, 10),facecolor='white')$/;"	kind:variable	line:41
+file	test/old/spider/spider/Spider/修改host上谷歌.py	/^    file = r'c:\\windows\\system32\\drivers\\etc\\hosts'$/;"	kind:variable	line:15
+file	test/old/spider/spider/Spider/修改host上谷歌.py	/^    file=r'\/etc\/hosts'$/;"	kind:variable	line:18
+firstExample.py	test/old/spider/spider/Spider/my/firstExample.py	1;"	kind:file	line:1
+forward_html	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	/^	forward_html = urllib2.urlopen("http:\/\/weibo.com\/1336593085\/D7hwE0dzC?type=repost#_rnd1449550776472").read()$/;"	kind:variable	line:19
+forward_html	test/old/spider/weibo_forward_analysis/weibo_main.py	/^	forward_html = urllib2.urlopen("http:\/\/weibo.com\/1336593085\/D7hwE0dzC?type=repost#_rnd1449550776472").read()$/;"	kind:variable	line:19
+forward_time	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	/^	forward_time =[]$/;"	kind:variable	line:28
+forward_time	test/old/spider/weibo_forward_analysis/weibo_main.py	/^	forward_time =[]$/;"	kind:variable	line:28
+forward_time2	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	/^	forward_time2 = []$/;"	kind:variable	line:29
+forward_time2	test/old/spider/weibo_forward_analysis/weibo_main.py	/^	forward_time2 = []$/;"	kind:variable	line:29
+fp	test/old/spider/spider/Spider/my/jieba/__main__.py	/^fp = open(args.filename, 'r') if args.filename else sys.stdin$/;"	kind:variable	line:32
+g	test/old/spider/spider/Python爬虫/test.py	/^g = binascii.b2a_hex(f) $/;"	kind:variable	line:28
+gen_pfdict	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def gen_pfdict(self, f_name):$/;"	kind:member	line:66
+getData	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def getData(url) :$/;"	kind:function	line:172
+getData	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def getData(url) :$/;"	kind:function	line:172
+getKeyWord	test/old/spider/spider/Spider/my/weibotest1.py	/^  def getKeyWord(self):$/;"	kind:member	line:76
+getTimescope	test/old/spider/spider/Spider/my/weibotest1.py	/^  def getTimescope(self, perTimescope, hours):$/;"	kind:member	line:174
+getURL	test/old/spider/spider/Spider/my/weibotest1.py	/^  def getURL(self):$/;"	kind:member	line:72
+get_DAG	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def get_DAG(self, sentence):$/;"	kind:member	line:172
+get_DAG	test/old/spider/spider/Spider/my/jieba/__init__.py	/^get_DAG = dt.get_DAG$/;"	kind:variable	line:495
+get_abs_path_dict	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def get_abs_path_dict(self):$/;"	kind:member	line:344
+get_abs_path_dict	test/old/spider/spider/Spider/my/jieba/__init__.py	/^get_abs_path_dict = dt.get_abs_path_dict$/;"	kind:variable	line:496
+get_content	test/old/spider/spider/Spider/my/newsSpider.py	/^def get_content(share_url):$/;"	kind:function	line:43
+get_data	test/old/spider/spider/SpiderOfWeibo/weibo/test1.py	/^get_data = p.search(a).group(1)$/;"	kind:variable	line:5
+get_details	test/old/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^def get_details(html):$/;"	kind:function	line:46
+get_details	test/old/spider/SpiderOfWeibo/weibo/get_weibo.py	/^def get_details(decoded_html):$/;"	kind:function	line:32
+get_details	test/old/spider/spider/Python爬虫/get_weibo.py	/^def get_details(decoded_html):$/;"	kind:function	line:32
+get_details	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^def get_details(html):$/;"	kind:function	line:46
+get_details	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/get_weibo.py	/^def get_details(decoded_html):$/;"	kind:function	line:100
+get_details	test/old/spider/weibo_forward_analysis/get_weibo.py	/^def get_details(decoded_html):$/;"	kind:function	line:100
+get_file	test/old/spider/spider/Spider/my/ipSpider.py	/^get_file=creat_file()$/;"	kind:variable	line:49
+get_file	test/old/spider/spider/Spider/my/newsSpider.py	/^get_file=creat_file(urls,titles)$/;"	kind:variable	line:116
+get_file	test/old/spider/spider/Spider/my/titleJieba.py	/^get_file=creat_file()$/;"	kind:variable	line:61
+get_file	test/old/spider/spider/Spider/my/titleSpider.py	/^get_file=creat_file()$/;"	kind:variable	line:59
+get_forward	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/get_weibo.py	/^def get_forward(html, origin_html):$/;"	kind:function	line:15
+get_forward	test/old/spider/weibo_forward_analysis/get_weibo.py	/^def get_forward(html, origin_html):$/;"	kind:function	line:15
+get_hreflist	test/old/spider/spider/Spider/my/titleSpider.py	/^def get_hreflist(html):$/;"	kind:function	line:23
+get_html	test/old/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^def get_html(url):$/;"	kind:function	line:15
+get_html	test/old/spider/spider/Spider/my/titleSpider.py	/^def get_html(url):$/;"	kind:function	line:18
+get_html	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^def get_html(url):$/;"	kind:function	line:15
+get_idf	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^    def get_idf(self):$/;"	kind:member	line:55
+get_ip	test/old/spider/spider/Spider/my/test.py	/^def get_ip():$/;"	kind:function	line:5
+get_iplist	test/old/spider/spider/Spider/my/ipSpider.py	/^def get_iplist(html):$/;"	kind:function	line:23
+get_json	test/old/spider/spider/Spider/my/22.py	/^def get_json(url):$/;"	kind:function	line:8
+get_json	test/old/spider/spider/Spider/my/newsSpider.py	/^def get_json(url):$/;"	kind:function	line:12
+get_location_replace	test/old/spider/SpiderOfWeibo/weibo/weibo_login.py	/^	def get_location_replace(self, get_html):$/;"	kind:member	line:79
+get_location_replace	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_login.py	/^	def get_location_replace(self, get_html):$/;"	kind:member	line:79
+get_location_replace	test/old/spider/weibo_forward_analysis/weibo_login.py	/^	def get_location_replace(self, get_html):$/;"	kind:member	line:79
+get_number_info	test/old/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^def get_number_info(html):#一次性得到所有数字$/;"	kind:function	line:72
+get_number_info	test/old/spider/SpiderOfWeibo/weibo/get_weibo.py	/^def get_number_info(decoded_html):#一次性得到所有数字$/;"	kind:function	line:61
+get_number_info	test/old/spider/spider/Python爬虫/get_weibo.py	/^def get_number_info(decoded_html):#一次性得到所有数字$/;"	kind:function	line:61
+get_number_info	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^def get_number_info(html):#一次性得到所有数字$/;"	kind:function	line:72
+get_number_info	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/get_weibo.py	/^def get_number_info(decoded_html):#一次性得到所有数字$/;"	kind:function	line:129
+get_number_info	test/old/spider/weibo_forward_analysis/get_weibo.py	/^def get_number_info(decoded_html):#一次性得到所有数字$/;"	kind:function	line:129
+get_origin_weibo	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/get_weibo.py	/^def get_origin_weibo(original_html):$/;"	kind:function	line:71
+get_origin_weibo	test/old/spider/weibo_forward_analysis/get_weibo.py	/^def get_origin_weibo(original_html):$/;"	kind:function	line:71
+get_pin	test/old/spider/SpiderOfWeibo/weibo/weibo_login.py	/^	def get_pin(self, pcid):$/;"	kind:member	line:62
+get_pin	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_login.py	/^	def get_pin(self, pcid):$/;"	kind:member	line:62
+get_pin	test/old/spider/weibo_forward_analysis/weibo_login.py	/^	def get_pin(self, pcid):$/;"	kind:member	line:62
+get_pwd	test/old/spider/SpiderOfWeibo/some_test/test1.py	/^def get_pwd(pwd, servertime, nonce):$/;"	kind:function	line:54
+get_pwd	test/old/spider/SpiderOfWeibo/weibo/test.py	/^def get_pwd(pwd, servertime, nonce):$/;"	kind:function	line:54
+get_pwd	test/old/spider/spider/Python爬虫/WeiboEncode.py	/^def get_pwd(password, servertime, nonce, pubkey):$/;"	kind:function	line:51
+get_pwd	test/old/spider/spider/SpiderOfWeibo/some_test/test1.py	/^def get_pwd(pwd, servertime, nonce):$/;"	kind:function	line:54
+get_pwd	test/old/spider/spider/SpiderOfWeibo/weibo/test.py	/^def get_pwd(pwd, servertime, nonce):$/;"	kind:function	line:54
+get_randbody	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_randbody():$/;"	kind:function	line:33
+get_randbody	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_randbody():$/;"	kind:function	line:33
+get_randid	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_randid():$/;"	kind:function	line:27
+get_randid	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_randid():$/;"	kind:function	line:27
+get_randletter	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_randletter():$/;"	kind:function	line:22
+get_randletter	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_randletter():$/;"	kind:function	line:22
+get_randmid	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_randmid():$/;"	kind:function	line:30
+get_randmid	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_randmid():$/;"	kind:function	line:30
+get_server_data	test/old/spider/SpiderOfWeibo/weibo/weibo_login.py	/^	def get_server_data(self):$/;"	kind:member	line:41
+get_server_data	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_login.py	/^	def get_server_data(self):$/;"	kind:member	line:41
+get_server_data	test/old/spider/weibo_forward_analysis/weibo_login.py	/^	def get_server_data(self):$/;"	kind:member	line:41
+get_servertime	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_servertime():#and nonce$/;"	kind:function	line:112
+get_servertime	test/old/spider/SpiderOfWeibo/some_test/test1.py	/^def get_servertime():$/;"	kind:function	line:39
+get_servertime	test/old/spider/SpiderOfWeibo/weibo/test.py	/^def get_servertime():$/;"	kind:function	line:39
+get_servertime	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_servertime():#and nonce$/;"	kind:function	line:112
+get_servertime	test/old/spider/spider/SpiderOfWeibo/some_test/test1.py	/^def get_servertime():$/;"	kind:function	line:39
+get_servertime	test/old/spider/spider/SpiderOfWeibo/weibo/test.py	/^def get_servertime():$/;"	kind:function	line:39
+get_sp	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_sp(st,nc):$/;"	kind:function	line:106
+get_sp	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_sp(st,nc):$/;"	kind:function	line:106
+get_su	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_su():$/;"	kind:function	line:102
+get_su	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def get_su():$/;"	kind:function	line:102
+get_titlelist	test/old/spider/spider/Spider/my/titleJieba.py	/^def get_titlelist(html):$/;"	kind:function	line:27
+get_titlelist	test/old/spider/spider/Spider/my/titleSpider.py	/^def get_titlelist(html):$/;"	kind:function	line:29
+get_top_states	test/old/spider/spider/Spider/my/jieba/posseg/viterbi.py	/^def get_top_states(t_state_v, K=4):$/;"	kind:function	line:10
+get_url	test/old/spider/spider/Spider/my/ipSpider.py	/^def get_url():$/;"	kind:function	line:9
+get_url_title	test/old/spider/spider/Spider/my/22.py	/^def get_url_title(get_json):$/;"	kind:function	line:14
+get_url_title	test/old/spider/spider/Spider/my/newsSpider.py	/^def get_url_title(get_json):$/;"	kind:function	line:23
+get_urls	test/old/spider/spider/Spider/my/ipSpider.py	/^def get_urls():$/;"	kind:function	line:43
+get_urls	test/old/spider/spider/Spider/my/titleJieba.py	/^def get_urls():$/;"	kind:function	line:53
+get_user	test/old/spider/SpiderOfWeibo/some_test/test1.py	/^def get_user(username):$/;"	kind:function	line:61
+get_user	test/old/spider/SpiderOfWeibo/weibo/test.py	/^def get_user(username):$/;"	kind:function	line:61
+get_user	test/old/spider/spider/SpiderOfWeibo/some_test/test1.py	/^def get_user(username):$/;"	kind:function	line:61
+get_user	test/old/spider/spider/SpiderOfWeibo/weibo/test.py	/^def get_user(username):$/;"	kind:function	line:61
+get_weibo.py	test/old/spider/SpiderOfWeibo/weibo/get_weibo.py	1;"	kind:file	line:1
+get_weibo.py	test/old/spider/spider/Python爬虫/get_weibo.py	1;"	kind:file	line:1
+get_weibo.py	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/get_weibo.py	1;"	kind:file	line:1
+get_weibo.py	test/old/spider/weibo_forward_analysis/get_weibo.py	1;"	kind:file	line:1
+getip.py	test/old/spider/spider/Spider/getip.py	1;"	kind:file	line:1
+gettime	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def gettime():$/;"	kind:function	line:84
+gettime	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def gettime():$/;"	kind:function	line:84
+gjc	test/old/spider/spider/Spider/my/firstExample.py	/^gjc=urllib.quote("电影")$/;"	kind:variable	line:5
+header	test/old/spider/spider/Spider/使用IP138数据库查询IP地址所在地.py	/^        header={$/;"	kind:variable	line:16
+headers	test/old/spider/spider/Spider/my/draft.py	/^headers={$/;"	kind:variable	line:7
+headers	test/old/spider/spider/Spider/my/firstExample.py	/^headers={$/;"	kind:variable	line:13
+help	test/old/spider/spider/Spider/my/jieba/__main__.py	/^                    help="don't print loading messages to stderr")$/;"	kind:variable	line:20
+help	test/old/spider/spider/Spider/my/jieba/__main__.py	/^                    help="full pattern cutting")$/;"	kind:variable	line:16
+help	test/old/spider/spider/Spider/my/jieba/__main__.py	/^                    help="use DELIM instead of ' \/ ' for word delimiter; or a space if it is used without DELIM")$/;"	kind:variable	line:10
+help	test/old/spider/spider/Spider/my/jieba/__main__.py	/^                    help="use USER_DICT together with the default dictionary or DICT (if specified)")$/;"	kind:variable	line:13
+hm	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^        hm = time[12:17].replace(':','')$/;"	kind:variable	line:15
+hm	test/old/spider/weibo_forward_analysis/network_graph.py	/^        hm = time[12:17].replace(':','')$/;"	kind:variable	line:15
+hmm	test/old/spider/spider/Spider/my/jieba/__main__.py	/^hmm = args.hmm$/;"	kind:variable	line:31
+hours	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/time_graph.py	/^hours = [(i-day_weibo).total_seconds()\/3600 for i in day]$/;"	kind:variable	line:16
+hours	test/old/spider/weibo_forward_analysis/time_graph.py	/^hours = [(i-day_weibo).total_seconds()\/3600 for i in day]$/;"	kind:variable	line:16
+href_list	test/old/spider/spider/Spider/my/titleSpider.py	/^href_list=get_hreflist(html)$/;"	kind:variable	line:57
+html	test/old/spider/SpiderOfWeibo/Python/test3.py	/^html = urllib2.urlopen(url).read()$/;"	kind:variable	line:6
+html	test/old/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^	html=get_html(url)$/;"	kind:variable	line:136
+html	test/old/spider/SpiderOfWeibo/weibo/weibo_main.py	/^	html = urllib2.urlopen("http:\/\/s.weibo.com\/weibo\/%25E5%2591%25A8%25E6%2589%25AC%25E9%259D%2592&page=3").read()$/;"	kind:variable	line:11
+html	test/old/spider/spider/Python爬虫/WeiboMain.py	/^    html = urllib2.urlopen("http:\/\/s.weibo.com\/weibo\/TTM%25E7%25A7%2591%25E6%258A%2580&page=2").read()$/;"	kind:variable	line:14
+html	test/old/spider/spider/Spider/my/draft.py	/^html=urllib2.urlopen(req).read()$/;"	kind:variable	line:13
+html	test/old/spider/spider/Spider/my/firstExample.py	/^html=urllib2.urlopen(req).read()$/;"	kind:variable	line:23
+html	test/old/spider/spider/Spider/my/ipSpider.py	/^	html=add_headers(urls[index]).read()$/;"	kind:variable	line:51
+html	test/old/spider/spider/Spider/my/test.py	/^	html=add_headers(url).readline()$/;"	kind:variable	line:30
+html	test/old/spider/spider/Spider/my/titleJieba.py	/^	html=add_headers(urls[index]).read()$/;"	kind:variable	line:64
+html	test/old/spider/spider/Spider/my/titleSpider.py	/^html=get_html(url)$/;"	kind:variable	line:56
+html	test/old/spider/spider/SpiderOfWeibo/Python_test/test3.py	/^html = urllib2.urlopen(url).read()$/;"	kind:variable	line:6
+html	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^	html=get_html(url)$/;"	kind:variable	line:136
+html	test/old/spider/spider/SpiderOfWeibo/some_test/test2.py	/^html = urllib.urlopen("http:\/\/www.qq.com")$/;"	kind:variable	line:6
+html	test/old/spider/spider/SpiderOfWeibo/weibo/test3.py	/^html = urllib.urlopen("http:\/\/www.qq.com")$/;"	kind:variable	line:6
+html	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	/^		html = urllib2.urlopen(url)$/;"	kind:variable	line:35
+html	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	/^	html = urllib2.urlopen(url)$/;"	kind:variable	line:17
+html	test/old/spider/weibo_forward_analysis/weibo_main.py	/^		html = urllib2.urlopen(url)$/;"	kind:variable	line:35
+html	test/old/spider/weibo_forward_analysis/weibo_main.py	/^	html = urllib2.urlopen(url)$/;"	kind:variable	line:17
+i	test/old/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^i=1#设置第一页$/;"	kind:variable	line:132
+i	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^i=1#设置第一页$/;"	kind:variable	line:132
+image	test/old/spider/SpiderOfWeibo/Python/test3.py	/^image = Image.open('\/home\/ruansongsong\/work\/code.png')$/;"	kind:variable	line:8
+image	test/old/spider/SpiderOfWeibo/test.py	/^image = Image.open("\/home\/ruansongsong\/work\/code")$/;"	kind:variable	line:16
+image	test/old/spider/spider/SpiderOfWeibo/Python_test/test3.py	/^image = Image.open('\/home\/ruansongsong\/work\/code.png')$/;"	kind:variable	line:8
+image	test/old/spider/spider/SpiderOfWeibo/test.py	/^image = Image.open("\/home\/ruansongsong\/work\/code")$/;"	kind:variable	line:16
+img_list	test/old/spider/spider/Spider/my/draft.py	/^img_list=re.findall(img_re,html)$/;"	kind:variable	line:16
+img_re	test/old/spider/spider/Spider/my/draft.py	/^img_re=re.compile(reg)$/;"	kind:variable	line:15
+initialize	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def initialize(self, dictionary=None):$/;"	kind:member	line:86
+initialize	test/old/spider/spider/Spider/my/jieba/__init__.py	/^initialize = dt.initialize$/;"	kind:variable	line:497
+initialize	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def initialize(self, dictionary=None):$/;"	kind:member	line:103
+initialize	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^initialize = dt.initialize$/;"	kind:variable	line:270
+input_code	test/old/spider/SpiderOfWeibo/test.py	/^input_code = raw_input()$/;"	kind:variable	line:18
+input_code	test/old/spider/spider/SpiderOfWeibo/test.py	/^input_code = raw_input()$/;"	kind:variable	line:18
+ip	test/old/spider/spider/Spider/使用IP138数据库查询IP地址所在地.py	/^        ip = re.findall(r'\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}',s)$/;"	kind:variable	line:28
+ipSpider.py	test/old/spider/spider/Spider/my/ipSpider.py	1;"	kind:file	line:1
+ip_list	test/old/spider/spider/Spider/my/ipSpider.py	/^	ip_list=get_iplist(html)$/;"	kind:variable	line:52
+ip_list	test/old/spider/spider/Spider/my/test.py	/^ip_list=get_ip()$/;"	kind:variable	line:26
+ipaddr	test/old/spider/spider/Spider/使用IP138数据库查询IP地址所在地.py	/^    ipaddr="120.24.228.173"$/;"	kind:variable	line:9
+iteritems	test/old/spider/spider/Spider/my/jieba/_compat.py	/^    iteritems = lambda d: d.iteritems()$/;"	kind:variable	line:14
+iteritems	test/old/spider/spider/Spider/my/jieba/_compat.py	/^    iteritems = lambda d: iter(d.items())$/;"	kind:variable	line:23
+iterkeys	test/old/spider/spider/Spider/my/jieba/_compat.py	/^    iterkeys = lambda d: d.iterkeys()$/;"	kind:variable	line:12
+iterkeys	test/old/spider/spider/Spider/my/jieba/_compat.py	/^    iterkeys = lambda d: iter(d.keys())$/;"	kind:variable	line:21
+itervalues	test/old/spider/spider/Spider/my/jieba/_compat.py	/^    itervalues = lambda d: d.itervalues()$/;"	kind:variable	line:13
+itervalues	test/old/spider/spider/Spider/my/jieba/_compat.py	/^    itervalues = lambda d: iter(d.values())$/;"	kind:variable	line:22
+jieba_list	test/old/spider/spider/Spider/my/titleJieba.py	/^jieba_list=[]$/;"	kind:variable	line:62
+json	test/old/spider/spider/Spider/my/22.py	/^json=get_json(url)$/;"	kind:variable	line:23
+json	test/old/spider/spider/Spider/my/newsSpider.py	/^json=get_json(url)$/;"	kind:variable	line:114
+key	test/old/spider/spider/Spider/learning.py	/^key="head"$/;"	kind:variable	line:16
+key	test/old/test/encode.py	/^key = rsa.PublicKey(rsa_public_key, 65537)#1001?$/;"	kind:variable	line:18
+l	test/old/spider/spider/Spider/my/jieba/__main__.py	/^    l = ln.rstrip('\\r\\n')$/;"	kind:variable	line:43
+lcut	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def lcut(self, *args, **kwargs):$/;"	kind:member	line:326
+lcut	test/old/spider/spider/Spider/my/jieba/__init__.py	/^lcut = dt.lcut$/;"	kind:variable	line:491
+lcut	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def lcut(self, *args, **kwargs):$/;"	kind:member	line:261
+lcut	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^def lcut(sentence, HMM=True):$/;"	kind:function	line:303
+lcut_for_search	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def lcut_for_search(self, *args, **kwargs):$/;"	kind:member	line:329
+lcut_for_search	test/old/spider/spider/Spider/my/jieba/__init__.py	/^lcut_for_search = dt.lcut_for_search$/;"	kind:variable	line:493
+learning.py	test/old/spider/spider/Spider/learning.py	1;"	kind:file	line:1
+ln	test/old/spider/spider/Spider/my/jieba/__main__.py	/^    ln = fp.readline()$/;"	kind:variable	line:48
+ln	test/old/spider/spider/Spider/my/jieba/__main__.py	/^ln = fp.readline()$/;"	kind:variable	line:41
+load_model	test/old/spider/spider/Spider/my/jieba/finalseg/__init__.py	/^def load_model():$/;"	kind:function	line:23
+load_model	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^def load_model(f_name):$/;"	kind:function	line:26
+load_userdict	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def load_userdict(self, f):$/;"	kind:member	line:347
+load_userdict	test/old/spider/spider/Spider/my/jieba/__init__.py	/^load_userdict = dt.load_userdict$/;"	kind:variable	line:498
+load_word_tag	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def load_word_tag(self, f_name):$/;"	kind:member	line:107
+log_console	test/old/spider/spider/Spider/my/jieba/__init__.py	/^log_console = logging.StreamHandler(sys.stderr)$/;"	kind:variable	line:29
+login	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def login(postdata):$/;"	kind:function	line:141
+login	test/old/spider/SpiderOfWeibo/weibo/weibo_login.py	/^	def login(self):$/;"	kind:member	line:84
+login	test/old/spider/spider/Spider/my/moni.py	/^ def login(self):$/;"	kind:member	line:66
+login	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def login(postdata):$/;"	kind:function	line:141
+login	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_login.py	/^	def login(self):$/;"	kind:member	line:84
+login	test/old/spider/weibo_forward_analysis/weibo_login.py	/^	def login(self):$/;"	kind:member	line:84
+login.py	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	1;"	kind:file	line:1
+login.py	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	1;"	kind:file	line:1
+loginUrl	test/old/spider/spider/Python爬虫/test.py	/^loginUrl = p.search(text).group(1)$/;"	kind:variable	line:32
+main	test/old/spider/SpiderOfWeibo/some_test/test1.py	/^def main():$/;"	kind:function	line:66
+main	test/old/spider/SpiderOfWeibo/weibo/test.py	/^def main():$/;"	kind:function	line:66
+main	test/old/spider/spider/Spider/my/ez_setup.py	/^def main(argv, version=DEFAULT_VERSION):$/;"	kind:function	line:203
+main	test/old/spider/spider/Spider/my/weibotest1.py	/^def main():$/;"	kind:function	line:185
+main	test/old/spider/spider/SpiderOfWeibo/some_test/test1.py	/^def main():$/;"	kind:function	line:66
+main	test/old/spider/spider/SpiderOfWeibo/weibo/test.py	/^def main():$/;"	kind:function	line:66
+mainHandle	test/old/spider/spider/Spider/spider3.0_getWeather.py	/^    def mainHandle(self):$/;"	kind:member	line:15
+makesure_userdict_loaded	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^    def makesure_userdict_loaded(self):$/;"	kind:member	line:121
+match	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def match(pattern,string):$/;"	kind:function	line:124
+match	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def match(pattern,string):$/;"	kind:function	line:124
+match_login_url	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def match_login_url(string):$/;"	kind:function	line:128
+match_login_url	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def match_login_url(string):$/;"	kind:function	line:128
+match_name	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def match_name(string):$/;"	kind:function	line:136
+match_name	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def match_name(string):$/;"	kind:function	line:136
+match_uid	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def match_uid(string):$/;"	kind:function	line:132
+match_uid	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def match_uid(string):$/;"	kind:function	line:132
+md5_data	test/old/spider/spider/Spider/my/ez_setup.py	/^md5_data = {$/;"	kind:variable	line:20
+message	test/old/test/encode.py	/^message = str(server_time) + '\\t' +str(nonce) + '\\n' + str(original_user_password)$/;"	kind:variable	line:21
+moni.py	test/old/spider/spider/Spider/my/moni.py	1;"	kind:file	line:1
+name	test/old/spider/SpiderOfWeibo/some_test/test.py	/^name = "rss"$/;"	kind:variable	line:1
+name	test/old/spider/spider/SpiderOfWeibo/some_test/test.py	/^name = "rss"$/;"	kind:variable	line:1
+names	test/old/spider/SpiderOfWeibo/Python/test1.py	/^names = ['ruansongsong','baba','mama']$/;"	kind:variable	line:5
+names	test/old/spider/spider/SpiderOfWeibo/Python_test/test1.py	/^names = ['ruansongsong','baba','mama']$/;"	kind:variable	line:5
+network_graph.py	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	1;"	kind:file	line:1
+network_graph.py	test/old/spider/weibo_forward_analysis/network_graph.py	1;"	kind:file	line:1
+newsSpider.py	test/old/spider/spider/Spider/my/newsSpider.py	1;"	kind:file	line:1
+node_size	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^        node_size = [v*2 for v in degree.values()], node_color = 'orange',         $/;"	kind:variable	line:43
+node_size	test/old/spider/weibo_forward_analysis/network_graph.py	/^        node_size = [v*2 for v in degree.values()], node_color = 'orange',         $/;"	kind:variable	line:43
+number_info	test/old/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^	number_info=get_number_info(html)$/;"	kind:variable	line:137
+number_info	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^	number_info=get_number_info(html)$/;"	kind:variable	line:137
+object	test/old/spider/spider/Spider/my/draft.py	/^object=open("C:\/Users\/ruans\/Desktop\/Sumer vacation\/python\/ip\/url.txt","r")$/;"	kind:variable	line:4
+object	test/old/spider/spider/Spider/my/testExample.py	/^object=open("C:\/Users\/ruans\/Desktop\/Sumer vacation\/python\/ip\/url.txt","r")$/;"	kind:variable	line:129
+opener	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^    opener=urllib2.build_opener(cookie,urllib2.HTTPHandler)$/;"	kind:variable	line:51
+opener	test/old/spider/SpiderOfWeibo/some_test/test1.py	/^opener = urllib2.build_opener(cookie_support, urllib2.HTTPHandler)$/;"	kind:variable	line:15
+opener	test/old/spider/SpiderOfWeibo/weibo/test.py	/^opener = urllib2.build_opener(cookie_support, urllib2.HTTPHandler)$/;"	kind:variable	line:15
+opener	test/old/spider/spider/Spider/my/moni.py	/^opener = urllib2.build_opener(cookie_support, urllib2.HTTPHandler)$/;"	kind:variable	line:14
+opener	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^    opener=urllib2.build_opener(cookie,urllib2.HTTPHandler)$/;"	kind:variable	line:51
+opener	test/old/spider/spider/SpiderOfWeibo/some_test/test1.py	/^opener = urllib2.build_opener(cookie_support, urllib2.HTTPHandler)$/;"	kind:variable	line:15
+opener	test/old/spider/spider/SpiderOfWeibo/weibo/test.py	/^opener = urllib2.build_opener(cookie_support, urllib2.HTTPHandler)$/;"	kind:variable	line:15
+openurl	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def openurl(url,chart='utf-8',data=None):$/;"	kind:function	line:87
+openurl	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def openurl(url,chart='utf-8',data=None):$/;"	kind:function	line:87
+openurl_	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def openurl_(url,data=None):$/;"	kind:function	line:96
+openurl_	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^def openurl_(url,data=None):$/;"	kind:function	line:96
+order	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^order = array.argsort()$/;"	kind:variable	line:21
+order	test/old/spider/weibo_forward_analysis/network_graph.py	/^order = array.argsort()$/;"	kind:variable	line:21
+origin_uid	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	/^	origin_uid = get_weibo.get_origin_weibo(forward_html)$/;"	kind:variable	line:21
+origin_uid	test/old/spider/weibo_forward_analysis/weibo_main.py	/^	origin_uid = get_weibo.get_origin_weibo(forward_html)$/;"	kind:variable	line:21
+origin_uid2	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	/^	origin_uid2 = []$/;"	kind:variable	line:26
+origin_uid2	test/old/spider/weibo_forward_analysis/weibo_main.py	/^	origin_uid2 = []$/;"	kind:variable	line:26
+p	test/old/spider/spider/Python爬虫/test.py	/^p = re.compile('location\\.replace\\([\\'"](.*?)[\\'"]\\)')$/;"	kind:variable	line:31
+p	test/old/spider/spider/SpiderOfWeibo/weibo/test1.py	/^p = re.compile('\\((.*)\\)')$/;"	kind:variable	line:4
+pair	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^class pair(object):$/;"	kind:class	line:63
+pairfilter	test/old/spider/spider/Spider/my/jieba/analyse/textrank.py	/^    def pairfilter(self, wp):$/;"	kind:member	line:65
+parser	test/old/spider/spider/Spider/my/jieba/__main__.py	/^parser = ArgumentParser(usage="%s -m jieba [options] filename" % sys.executable, description="Jieba command line interface.", epilog="If no filename specified, use STDIN instead.")$/;"	kind:variable	line:7
+password	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^password=''$/;"	kind:variable	line:45
+password	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^password=''$/;"	kind:variable	line:45
+path_length	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^path_length = nx.all_pairs_shortest_path_length(G)$/;"	kind:variable	line:36
+path_length	test/old/spider/weibo_forward_analysis/network_graph.py	/^path_length = nx.all_pairs_shortest_path_length(G)$/;"	kind:variable	line:36
+pcid	test/old/spider/SpiderOfWeibo/test.py	/^pcid = "xd-01ee4d114e1c59964396d92937c2de294e20"$/;"	kind:variable	line:8
+pcid	test/old/spider/spider/SpiderOfWeibo/test.py	/^pcid = "xd-01ee4d114e1c59964396d92937c2de294e20"$/;"	kind:variable	line:8
+pid	test/old/spider/spider/SpiderOfWeibo/Python_test/test4.py	/^pid = os.fork()$/;"	kind:variable	line:5
+pin_code	test/old/spider/SpiderOfWeibo/test.py	/^pin_code = urllib2.urlopen(pin_code_url).read()$/;"	kind:variable	line:11
+pin_code	test/old/spider/spider/SpiderOfWeibo/test.py	/^pin_code = urllib2.urlopen(pin_code_url).read()$/;"	kind:variable	line:11
+pin_code.py	test/old/spider/SpiderOfWeibo/weibo/pin_code.py	1;"	kind:file	line:1
+pin_code_url	test/old/spider/SpiderOfWeibo/test.py	/^pin_code_url = "http:\/\/login.sina.com.cn\/cgi\/pin.php"$/;"	kind:variable	line:6
+pin_code_url	test/old/spider/spider/SpiderOfWeibo/test.py	/^pin_code_url = "http:\/\/login.sina.com.cn\/cgi\/pin.php"$/;"	kind:variable	line:6
+pool	test/old/spider/spider/Spider/my/jieba/__init__.py	/^pool = None$/;"	kind:variable	line:36
+pos	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^pos=nx.spring_layout(G) #设置网络的布局$/;"	kind:variable	line:37
+pos	test/old/spider/weibo_forward_analysis/network_graph.py	/^pos=nx.spring_layout(G) #设置网络的布局$/;"	kind:variable	line:37
+postPara	test/old/spider/spider/Python爬虫/test.py	/^postPara = {$/;"	kind:variable	line:7
+post_encode	test/old/spider/SpiderOfWeibo/weibo/post_encode.py	/^def post_encode(user_name, user_password, server_time, nonce, pubkey, rsakv, pin_code = 0):$/;"	kind:function	line:30
+post_encode	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/post_encode.py	/^def post_encode(user_name, user_password, server_time, nonce, pubkey, rsakv, pin_code = 0):$/;"	kind:function	line:30
+post_encode	test/old/spider/weibo_forward_analysis/post_encode.py	/^def post_encode(user_name, user_password, server_time, nonce, pubkey, rsakv, pin_code = 0):$/;"	kind:function	line:30
+post_encode.py	test/old/spider/SpiderOfWeibo/weibo/post_encode.py	1;"	kind:file	line:1
+post_encode.py	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/post_encode.py	1;"	kind:file	line:1
+post_encode.py	test/old/spider/weibo_forward_analysis/post_encode.py	1;"	kind:file	line:1
+postdata	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^postdata={$/;"	kind:variable	line:61
+postdata	test/old/spider/SpiderOfWeibo/some_test/test1.py	/^postdata = {$/;"	kind:variable	line:19
+postdata	test/old/spider/SpiderOfWeibo/weibo/test.py	/^postdata = {$/;"	kind:variable	line:19
+postdata	test/old/spider/spider/Spider/my/moni.py	/^postdata = {$/;"	kind:variable	line:16
+postdata	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^postdata={$/;"	kind:variable	line:61
+postdata	test/old/spider/spider/SpiderOfWeibo/some_test/test1.py	/^postdata = {$/;"	kind:variable	line:19
+postdata	test/old/spider/spider/SpiderOfWeibo/weibo/test.py	/^postdata = {$/;"	kind:variable	line:19
+printName	test/old/spider/SpiderOfWeibo/some_test/test.py	/^	def printName(self):$/;"	kind:member	line:7
+printName	test/old/spider/spider/SpiderOfWeibo/some_test/test.py	/^	def printName(self):$/;"	kind:member	line:7
+prob_emit.py	test/old/spider/spider/Spider/my/jieba/finalseg/prob_emit.py	1;"	kind:file	line:1
+prob_emit.py	test/old/spider/spider/Spider/my/jieba/posseg/prob_emit.py	1;"	kind:file	line:1
+prob_start.py	test/old/spider/spider/Spider/my/jieba/finalseg/prob_start.py	1;"	kind:file	line:1
+prob_start.py	test/old/spider/spider/Spider/my/jieba/posseg/prob_start.py	1;"	kind:file	line:1
+prob_trans.py	test/old/spider/spider/Spider/my/jieba/finalseg/prob_trans.py	1;"	kind:file	line:1
+prob_trans.py	test/old/spider/spider/Spider/my/jieba/posseg/prob_trans.py	1;"	kind:file	line:1
+pubkey	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^pubkey=int(publickey,16)$/;"	kind:variable	line:59
+pubkey	test/old/spider/spider/Python爬虫/test.py	/^pubkey = "EB2A38568661887FA180BDDB5CABD5F21C7BFD59C090CB2D245A87AC253062882729293E5506350508E7F9AA3BB77F4333231490F915F6D63C55FE2F08A49B353F444AD3993CACC02DB784ABBB8E42A9B1BBFFFB38BE18D78E87A0E41B9B8F73A928EE0CCEE1F6739884B9777E4FE9E88A1BBE495927AC4A799B3181D6442443"$/;"	kind:variable	line:23
+pubkey	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^pubkey=int(publickey,16)$/;"	kind:variable	line:59
+pubkey	test/old/test/encode.py	/^pubkey = 'EB2A38568661887FA180BDDB5CABD5F21C7BFD59C090CB2D245A87AC253062882729293E5506350508E7F9AA3BB77F4333231490F915F6D63C55FE2F08A49B353F444AD3993CACC02DB784ABBB8E42A9B1BBFFFB38BE18D78E87A0E41B9B8F73A928EE0CCEE1F6739884B9777E4FE9E88A1BBE495927AC4A799B3181D6442443'$/;"	kind:variable	line:14
+publickey	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^784ABBB8E42A9B1BBFFFB38BE18D78E87A0E41B9B8F73A928EE0CCEE1F6739884B9777E4FE9E88A1BBE495927AC4A799B3181D6442443'$/;"	kind:variable	line:58
+publickey	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^784ABBB8E42A9B1BBFFFB38BE18D78E87A0E41B9B8F73A928EE0CCEE1F6739884B9777E4FE9E88A1BBE495927AC4A799B3181D6442443'$/;"	kind:variable	line:58
+rank	test/old/spider/spider/Spider/my/jieba/analyse/textrank.py	/^    def rank(self):$/;"	kind:member	line:24
+ranks	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^ranks = order.argsort()$/;"	kind:variable	line:22
+ranks	test/old/spider/weibo_forward_analysis/network_graph.py	/^ranks = order.argsort()$/;"	kind:variable	line:22
+re_eng	test/old/spider/spider/Spider/my/jieba/__init__.py	/^re_eng = re.compile('[a-zA-Z0-9]', re.U)$/;"	kind:variable	line:38
+re_eng	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^re_eng = re.compile("[a-zA-Z0-9]+")$/;"	kind:variable	line:20
+re_eng1	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^re_eng1 = re.compile('^[a-zA-Z0-9]$', re.U)$/;"	kind:variable	line:23
+re_han	test/old/spider/spider/Spider/my/jieba/finalseg/__init__.py	/^re_han = re.compile("([\\u4E00-\\u9FA5]+)")$/;"	kind:variable	line:92
+re_han_cut_all	test/old/spider/spider/Spider/my/jieba/__init__.py	/^re_han_cut_all = re.compile("([\\u4E00-\\u9FA5]+)", re.U)$/;"	kind:variable	line:44
+re_han_default	test/old/spider/spider/Spider/my/jieba/__init__.py	/^re_han_default = re.compile("([\\u4E00-\\u9FA5a-zA-Z0-9+#&\\._]+)", re.U)$/;"	kind:variable	line:42
+re_han_detail	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^re_han_detail = re.compile("([\\u4E00-\\u9FA5]+)")$/;"	kind:variable	line:15
+re_han_internal	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^re_han_internal = re.compile("([\\u4E00-\\u9FA5a-zA-Z0-9+#&\\._]+)")$/;"	kind:variable	line:17
+re_num	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^re_num = re.compile("[\\.0-9]+")$/;"	kind:variable	line:21
+re_skip	test/old/spider/spider/Spider/my/jieba/finalseg/__init__.py	/^re_skip = re.compile("(\\d+\\.\\d+|[a-zA-Z0-9]+)")$/;"	kind:variable	line:93
+re_skip_cut_all	test/old/spider/spider/Spider/my/jieba/__init__.py	/^re_skip_cut_all = re.compile("[^a-zA-Z0-9+#\\n]", re.U)$/;"	kind:variable	line:45
+re_skip_default	test/old/spider/spider/Spider/my/jieba/__init__.py	/^re_skip_default = re.compile("(\\r\\n|\\s)", re.U)$/;"	kind:variable	line:43
+re_skip_detail	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^re_skip_detail = re.compile("([\\.0-9]+|[a-zA-Z0-9]+)")$/;"	kind:variable	line:16
+re_skip_internal	test/old/spider/spider/Spider/my/jieba/posseg/__init__.py	/^re_skip_internal = re.compile("(\\r\\n|\\s)")$/;"	kind:variable	line:18
+reg	test/old/spider/spider/Spider/my/draft.py	/^reg =r"http:.+?\\.jpg"$/;"	kind:variable	line:14
+req	test/old/spider/spider/Spider/my/draft.py	/^req=urllib2.Request(url_list)$/;"	kind:variable	line:10
+req	test/old/spider/spider/Spider/my/firstExample.py	/^req=urllib2.Request(url)$/;"	kind:variable	line:19
+req	test/old/spider/spider/Spider/使用IP138数据库查询IP地址所在地.py	/^        req = urllib.request.Request(url)$/;"	kind:variable	line:15
+response	test/old/spider/spider/Spider/sethp.py	/^	response=SetHP(url)$/;"	kind:variable	line:44
+result	test/old/spider/spider/Spider/my/jieba/__main__.py	/^        result = result.encode(default_encoding)$/;"	kind:variable	line:46
+result	test/old/spider/spider/Spider/my/jieba/__main__.py	/^    result = delim.join(jieba.cut(ln.rstrip('\\r\\n'), cutall, hmm))$/;"	kind:variable	line:44
+result	test/old/spider/spider/Spider/使用IP138数据库查询IP地址所在地.py	/^        result = re.findall(r'(<li>.*?<\/li>)',s)$/;"	kind:variable	line:32
+rnd	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	/^		rnd = long((time.time())*1000)$/;"	kind:variable	line:32
+rnd	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	/^	rnd = long((time.time())*1000)$/;"	kind:variable	line:13
+rnd	test/old/spider/weibo_forward_analysis/weibo_main.py	/^		rnd = long((time.time())*1000)$/;"	kind:variable	line:32
+rnd	test/old/spider/weibo_forward_analysis/weibo_main.py	/^	rnd = long((time.time())*1000)$/;"	kind:variable	line:13
+rsa_public_key	test/old/test/encode.py	/^rsa_public_key = int(pubkey, 16)$/;"	kind:variable	line:15
+rt_time	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^    rt_time = []$/;"	kind:variable	line:7
+rt_time	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/time_graph.py	/^	rt_time = []$/;"	kind:variable	line:8
+rt_time	test/old/spider/weibo_forward_analysis/network_graph.py	/^    rt_time = []$/;"	kind:variable	line:7
+rt_time	test/old/spider/weibo_forward_analysis/time_graph.py	/^	rt_time = []$/;"	kind:variable	line:8
+s	test/old/spider/spider/Spider/learning.py	/^s={"head":"rrr","host":"dddd"}$/;"	kind:variable	line:15
+s	test/old/spider/spider/Spider/使用IP138数据库查询IP地址所在地.py	/^        s = u.read()$/;"	kind:variable	line:24
+sRedirectData	test/old/spider/spider/Python爬虫/WeiboSearch.py	/^def sRedirectData(text):$/;"	kind:function	line:25
+sServerData	test/old/spider/spider/Python爬虫/WeiboSearch.py	/^def sServerData(serverData):$/;"	kind:function	line:10
+saveto	test/old/spider/spider/Spider/my/ez_setup.py	/^    saveto = os.path.join(to_dir, egg_name)$/;"	kind:variable	line:135
+seg_list	test/old/spider/spider/Spider/my/titleJieba.py	/^		seg_list=list(jieba.cut(title_list[j],cut_all=False))$/;"	kind:variable	line:67
+setFlag	test/old/spider/spider/Spider/my/weibotest1.py	/^  def setFlag(self, flag):$/;"	kind:member	line:68
+setInterval	test/old/spider/spider/Spider/my/weibotest1.py	/^  def setInterval(self, interval):$/;"	kind:member	line:64
+setKeyword	test/old/spider/spider/Spider/my/weibotest1.py	/^  def setKeyword(self, keyword):$/;"	kind:member	line:41
+setLogLevel	test/old/spider/spider/Spider/my/jieba/__init__.py	/^def setLogLevel(log_level):$/;"	kind:function	line:47
+setRegion	test/old/spider/spider/Spider/my/weibotest1.py	/^  def setRegion(self, region):$/;"	kind:member	line:54
+setSave_dir	test/old/spider/spider/Spider/my/weibotest1.py	/^  def setSave_dir(self, save_dir):$/;"	kind:member	line:58
+setStartTimescope	test/old/spider/spider/Spider/my/weibotest1.py	/^  def setStartTimescope(self, startTime):$/;"	kind:member	line:47
+set_dictionary	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def set_dictionary(self, dictionary_path):$/;"	kind:member	line:472
+set_dictionary	test/old/spider/spider/Spider/my/jieba/__init__.py	/^set_dictionary = dt.set_dictionary$/;"	kind:variable	line:499
+set_idf_path	test/old/spider/spider/Spider/my/jieba/analyse/__init__.py	/^set_idf_path = default_tfidf.set_idf_path$/;"	kind:variable	line:13
+set_idf_path	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^    def set_idf_path(self, idf_path):$/;"	kind:member	line:68
+set_new_path	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^    def set_new_path(self, new_idf_path):$/;"	kind:member	line:44
+set_stop_words	test/old/spider/spider/Spider/my/jieba/analyse/__init__.py	/^def set_stop_words(stop_words_path):$/;"	kind:function	line:16
+set_stop_words	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	/^    def set_stop_words(self, stop_words_path):$/;"	kind:member	line:23
+sethp.py	test/old/spider/spider/Spider/sethp.py	1;"	kind:file	line:1
+sleeptime_rand	test/old/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^	sleeptime_rand = random.randint(1,30)$/;"	kind:variable	line:142
+sleeptime_rand	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^	sleeptime_rand = random.randint(1,30)$/;"	kind:variable	line:142
+spider3.0_getWeather.py	test/old/spider/spider/Spider/spider3.0_getWeather.py	1;"	kind:file	line:1
+src	test/old/spider/spider/Spider/my/ez_setup.py	/^            src = urllib2.urlopen(url)$/;"	kind:variable	line:158
+ss	test/old/spider/spider/Spider/my/firstExample.py	/^ss=re.findall("\\"(.*?)\\"",html)$/;"	kind:variable	line:24
+strdecode	test/old/spider/spider/Spider/my/jieba/_compat.py	/^def strdecode(sentence):$/;"	kind:function	line:25
+string_types	test/old/spider/spider/Spider/my/jieba/_compat.py	/^    string_types = (str, unicode)$/;"	kind:variable	line:10
+string_types	test/old/spider/spider/Spider/my/jieba/_compat.py	/^    string_types = (str,)$/;"	kind:variable	line:18
+suggest_freq	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def suggest_freq(self, segment, tune=False):$/;"	kind:member	line:408
+suggest_freq	test/old/spider/spider/Spider/my/jieba/__init__.py	/^suggest_freq = dt.suggest_freq$/;"	kind:variable	line:500
+sum	test/old/spider/SpiderOfWeibo/Python/test1.py	/^	sum = sum + i$/;"	kind:variable	line:10
+sum	test/old/spider/SpiderOfWeibo/Python/test1.py	/^sum = 0$/;"	kind:variable	line:8
+sum	test/old/spider/spider/SpiderOfWeibo/Python_test/test1.py	/^	sum = sum + i$/;"	kind:variable	line:10
+sum	test/old/spider/spider/SpiderOfWeibo/Python_test/test1.py	/^sum = 0$/;"	kind:variable	line:8
+task1-getip.py	test/old/spider/spider/Spider/task1-getip.py	1;"	kind:file	line:1
+temp	test/old/spider/spider/Python爬虫/test.py	/^temp = "a"$/;"	kind:variable	line:29
+test.py	test/old/spider/SpiderOfWeibo/Python/test.py	1;"	kind:file	line:1
+test.py	test/old/spider/SpiderOfWeibo/some_test/test.py	1;"	kind:file	line:1
+test.py	test/old/spider/SpiderOfWeibo/test.py	1;"	kind:file	line:1
+test.py	test/old/spider/SpiderOfWeibo/weibo/test.py	1;"	kind:file	line:1
+test.py	test/old/spider/spider/Python爬虫/test.py	1;"	kind:file	line:1
+test.py	test/old/spider/spider/Spider/my/test.py	1;"	kind:file	line:1
+test.py	test/old/spider/spider/SpiderOfWeibo/Python_test/test.py	1;"	kind:file	line:1
+test.py	test/old/spider/spider/SpiderOfWeibo/some_test/test.py	1;"	kind:file	line:1
+test.py	test/old/spider/spider/SpiderOfWeibo/test.py	1;"	kind:file	line:1
+test.py	test/old/spider/spider/SpiderOfWeibo/weibo/test.py	1;"	kind:file	line:1
+test1.py	test/old/spider/SpiderOfWeibo/Python/test1.py	1;"	kind:file	line:1
+test1.py	test/old/spider/SpiderOfWeibo/some_test/test1.py	1;"	kind:file	line:1
+test1.py	test/old/spider/spider/SpiderOfWeibo/Python_test/test1.py	1;"	kind:file	line:1
+test1.py	test/old/spider/spider/SpiderOfWeibo/some_test/test1.py	1;"	kind:file	line:1
+test1.py	test/old/spider/spider/SpiderOfWeibo/weibo/test1.py	1;"	kind:file	line:1
+test2.py	test/old/spider/SpiderOfWeibo/Python/test2.py	1;"	kind:file	line:1
+test2.py	test/old/spider/spider/SpiderOfWeibo/Python_test/test2.py	1;"	kind:file	line:1
+test2.py	test/old/spider/spider/SpiderOfWeibo/some_test/test2.py	1;"	kind:file	line:1
+test2.py	test/old/spider/spider/SpiderOfWeibo/weibo/test2.py	1;"	kind:file	line:1
+test3.py	test/old/spider/SpiderOfWeibo/Python/test3.py	1;"	kind:file	line:1
+test3.py	test/old/spider/spider/SpiderOfWeibo/Python_test/test3.py	1;"	kind:file	line:1
+test3.py	test/old/spider/spider/SpiderOfWeibo/weibo/test3.py	1;"	kind:file	line:1
+test4.py	test/old/spider/spider/SpiderOfWeibo/Python_test/test4.py	1;"	kind:file	line:1
+test4.py	test/old/spider/spider/SpiderOfWeibo/weibo/test4.py	1;"	kind:file	line:1
+test5.py	test/old/spider/spider/SpiderOfWeibo/weibo/test5.py	1;"	kind:file	line:1
+testExample.py	test/old/spider/spider/Spider/my/testExample.py	1;"	kind:file	line:1
+text_type	test/old/spider/spider/Spider/my/jieba/_compat.py	/^    text_type = str$/;"	kind:variable	line:17
+text_type	test/old/spider/spider/Spider/my/jieba/_compat.py	/^    text_type = unicode$/;"	kind:variable	line:9
+textrank	test/old/spider/spider/Spider/my/jieba/analyse/__init__.py	/^textrank = default_textrank.extract_tags$/;"	kind:variable	line:14
+textrank	test/old/spider/spider/Spider/my/jieba/analyse/textrank.py	/^    def textrank(self, sentence, topK=20, withWeight=False, allowPOS=('ns', 'n', 'vn', 'v')):$/;"	kind:member	line:69
+textrank.py	test/old/spider/spider/Spider/my/jieba/analyse/textrank.py	1;"	kind:file	line:1
+tfidf.py	test/old/spider/spider/Spider/my/jieba/analyse/tfidf.py	1;"	kind:file	line:1
+time	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^        time = int(day + hm)$/;"	kind:variable	line:16
+time	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/network_graph.py	/^        time= line.strip().split(',')[-1]$/;"	kind:variable	line:9
+time	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/time_graph.py	/^	    time = time[1:-1]$/;"	kind:variable	line:11
+time	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/time_graph.py	/^	    time= line.strip().split(',')[-1]$/;"	kind:variable	line:10
+time	test/old/spider/weibo_forward_analysis/network_graph.py	/^        time = int(day + hm)$/;"	kind:variable	line:16
+time	test/old/spider/weibo_forward_analysis/network_graph.py	/^        time= line.strip().split(',')[-1]$/;"	kind:variable	line:9
+time	test/old/spider/weibo_forward_analysis/time_graph.py	/^	    time = time[1:-1]$/;"	kind:variable	line:11
+time	test/old/spider/weibo_forward_analysis/time_graph.py	/^	    time= line.strip().split(',')[-1]$/;"	kind:variable	line:10
+time_graph.py	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/time_graph.py	1;"	kind:file	line:1
+time_graph.py	test/old/spider/weibo_forward_analysis/time_graph.py	1;"	kind:file	line:1
+titleJieba.py	test/old/spider/spider/Spider/my/titleJieba.py	1;"	kind:file	line:1
+titleSpider.py	test/old/spider/spider/Spider/my/titleSpider.py	1;"	kind:file	line:1
+title_list	test/old/spider/spider/Spider/my/titleJieba.py	/^	title_list=get_titlelist(html)$/;"	kind:variable	line:65
+title_list	test/old/spider/spider/Spider/my/titleSpider.py	/^title_list=get_titlelist(html)$/;"	kind:variable	line:58
+tokenize	test/old/spider/spider/Spider/my/jieba/__init__.py	/^    def tokenize(self, unicode_sentence, mode="default", HMM=True):$/;"	kind:member	line:439
+tokenize	test/old/spider/spider/Spider/my/jieba/__init__.py	/^tokenize = dt.tokenize$/;"	kind:variable	line:501
+u	test/old/spider/spider/Spider/使用IP138数据库查询IP地址所在地.py	/^        u = urllib.request.urlopen(req)$/;"	kind:variable	line:23
+uid	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^uid=$/;"	kind:variable	line:47
+uid	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^uid=$/;"	kind:variable	line:47
+uid	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	/^	uid = []$/;"	kind:variable	line:25
+uid	test/old/spider/weibo_forward_analysis/weibo_main.py	/^	uid = []$/;"	kind:variable	line:25
+uid2	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	/^	uid2 = []$/;"	kind:variable	line:27
+uid2	test/old/spider/weibo_forward_analysis/weibo_main.py	/^	uid2 = []$/;"	kind:variable	line:27
+update_md5	test/old/spider/spider/Spider/my/ez_setup.py	/^def update_md5(filenames):$/;"	kind:function	line:244
+url	test/old/spider/spider/Spider/my/ez_setup.py	/^    url = download_base + egg_name$/;"	kind:variable	line:134
+url	test/old/spider/spider/Spider/my/firstExample.py	/^url=url_text+gjc$/;"	kind:variable	line:12
+url	test/old/spider/spider/Spider/my/test.py	/^url="http:\/\/www.baidu.com"$/;"	kind:variable	line:27
+url	test/old/spider/spider/Spider/sethp.py	/^	url="http:\/\/www.baidu.com"$/;"	kind:variable	line:43
+url	test/old/spider/spider/Spider/修改host上谷歌.py	/^url='http:\/\/www.360kb.com\/kb\/2_150.html'$/;"	kind:variable	line:20
+url_list	test/old/spider/spider/Spider/my/draft.py	/^url_list=object.readlines()$/;"	kind:variable	line:5
+url_list	test/old/spider/spider/Spider/my/testExample.py	/^url_list=object.readlines()$/;"	kind:variable	line:130
+url_object	test/old/spider/spider/Spider/my/firstExample.py	/^url_object=open('url.txt')$/;"	kind:variable	line:6
+url_random	test/old/spider/SpiderOfWeibo/test.py	/^url_random = str(int(random.random() * 100000000))$/;"	kind:variable	line:9
+url_random	test/old/spider/spider/SpiderOfWeibo/test.py	/^url_random = str(int(random.random() * 100000000))$/;"	kind:variable	line:9
+url_text	test/old/spider/spider/Spider/my/firstExample.py	/^	url_text=url_object.read();$/;"	kind:variable	line:8
+urls	test/old/spider/spider/Spider/my/ipSpider.py	/^urls=get_urls()$/;"	kind:variable	line:48
+urls	test/old/spider/spider/Spider/my/titleJieba.py	/^urls=get_urls()$/;"	kind:variable	line:60
+use_setuptools	test/old/spider/spider/Spider/my/ez_setup.py	/^def use_setuptools($/;"	kind:function	line:80
+user_word_tag_tab	test/old/spider/spider/Spider/my/jieba/__init__.py	/^user_word_tag_tab = dt.user_word_tag_tab$/;"	kind:variable	line:502
+username	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^username=usernames[0]$/;"	kind:variable	line:44
+username	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^username=usernames[0]$/;"	kind:variable	line:44
+usernames	test/old/spider/SpiderOfWeibo/simpleWeibo/login.py	/^usernames=['','']$/;"	kind:variable	line:43
+usernames	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/login.py	/^usernames=['','']$/;"	kind:variable	line:43
+version	test/old/spider/spider/Spider/my/jieba/__main__.py	/^                    version="Jieba " + jieba.__version__)$/;"	kind:variable	line:22
+viterbi	test/old/spider/spider/Spider/my/jieba/finalseg/__init__.py	/^def viterbi(obs, states, start_p, trans_p, emit_p):$/;"	kind:function	line:52
+viterbi	test/old/spider/spider/Spider/my/jieba/posseg/viterbi.py	/^def viterbi(obs, states, start_p, trans_p, emit_p):$/;"	kind:function	line:14
+viterbi.py	test/old/spider/spider/Spider/my/jieba/posseg/viterbi.py	1;"	kind:file	line:1
+was_imported	test/old/spider/spider/Spider/my/ez_setup.py	/^    was_imported = 'pkg_resources' in sys.modules or 'setuptools' in sys.modules$/;"	kind:variable	line:95
+weather	test/old/spider/spider/Spider/spider3.0_getWeather.py	/^    weather = weather()$/;"	kind:variable	line:42
+weather	test/old/spider/spider/Spider/spider3.0_getWeather.py	/^class weather(object):$/;"	kind:class	line:6
+weibo.py	test/old/spider/SpiderOfWeibo/simpleWeibo/weibo.py	1;"	kind:file	line:1
+weibo.py	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/weibo.py	1;"	kind:file	line:1
+weiboLogin	test/old/spider/spider/Python爬虫/WeiboMain.py	/^    weiboLogin = WeiboLogin('ruansongsong@gmai.com', '644179052')#邮箱（账号）、密码$/;"	kind:variable	line:11
+weibo_login.py	test/old/spider/SpiderOfWeibo/weibo/weibo_login.py	1;"	kind:file	line:1
+weibo_login.py	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_login.py	1;"	kind:file	line:1
+weibo_login.py	test/old/spider/weibo_forward_analysis/weibo_login.py	1;"	kind:file	line:1
+weibo_main.py	test/old/spider/SpiderOfWeibo/weibo/weibo_main.py	1;"	kind:file	line:1
+weibo_main.py	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/weibo_main.py	1;"	kind:file	line:1
+weibo_main.py	test/old/spider/weibo_forward_analysis/weibo_main.py	1;"	kind:file	line:1
+weibotest1.py	test/old/spider/spider/Spider/my/weibotest1.py	1;"	kind:file	line:1
+write_all_info	test/old/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^def write_all_info(nick_name,nickname_href,content_text,times,number_info):$/;"	kind:function	line:110
+write_all_info	test/old/spider/SpiderOfWeibo/weibo/get_weibo.py	/^def write_all_info(original_html):$/;"	kind:function	line:102
+write_all_info	test/old/spider/spider/Python爬虫/get_weibo.py	/^def write_all_info(original_html):$/;"	kind:function	line:102
+write_all_info	test/old/spider/spider/SpiderOfWeibo/simpleWeibo/weibo.py	/^def write_all_info(nick_name,nickname_href,content_text,times,number_info):$/;"	kind:function	line:110
+write_all_info	test/old/spider/spider/SpiderOfWeibo/weibo/weibo_forward_analysis/get_weibo.py	/^def write_all_info(original_html):$/;"	kind:function	line:170
+write_all_info	test/old/spider/weibo_forward_analysis/get_weibo.py	/^def write_all_info(original_html):$/;"	kind:function	line:170
+write_all_list	test/old/spider/spider/Spider/my/newsSpider.py	/^def write_all_list(urls,titles,contents,imgs,numbers,get_file):$/;"	kind:function	line:91
+write_all_list	test/old/spider/spider/Spider/my/titleSpider.py	/^def write_all_list(href_list,title_list,file):$/;"	kind:function	line:45
+write_iplist	test/old/spider/spider/Spider/my/ipSpider.py	/^def write_iplist(ip_list,file):$/;"	kind:function	line:38
+write_jieba_list	test/old/spider/spider/Spider/my/titleJieba.py	/^def write_jieba_list(jieba_list,file):$/;"	kind:function	line:43
+x	test/old/spider/spider/Spider/my/draft.py	/^x=0$/;"	kind:variable	line:17
+x	test/old/spider/spider/SpiderOfWeibo/weibo/test4.py	/^x = np.linspace(0, 10, 1000)$/;"	kind:variable	line:5
+xrange	test/old/spider/spider/Spider/my/jieba/_compat.py	/^    xrange = range$/;"	kind:variable	line:19
+xrange	test/old/spider/spider/Spider/my/jieba/posseg/viterbi.py	/^    xrange = range$/;"	kind:variable	line:7
+y	test/old/spider/spider/SpiderOfWeibo/weibo/test4.py	/^y = np.sin(x)$/;"	kind:variable	line:6
+z	test/old/spider/spider/SpiderOfWeibo/weibo/test4.py	/^z = np.cos(x**2)$/;"	kind:variable	line:7
+使用IP138数据库查询IP地址所在地.py	test/old/spider/spider/Spider/使用IP138数据库查询IP地址所在地.py	1;"	kind:file	line:1
+修改host上谷歌.py	test/old/spider/spider/Spider/修改host上谷歌.py	1;"	kind:file	line:1

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://bl.ocks.org/mbostock/raw/4062045/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style>
+
+#slidecontainer {
+    width: 20%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: #75aef4;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #75aef4;
+    cursor: pointer;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  position: absolute;
+  width: 960px;
+  font-size: 14px;
+}
+
+.link {
+  stroke:#eaedea;
+}
+
+.node text {
+  pointer-events: none;
+}
+
+.nodetext {
+  font-size: 24px;
+}
+
+.title {
+  font-size: 34px;
+}
+
+.sizeby {
+  font-size: 20px;
+}
+
+.sizenote {
+  font-size: 16px;
+}
+
+.rankingtext {
+  font-size: 16px;
+}
+.rankingtitle {
+  font-size: 28px;
+}
+.rankingnum {
+  font-size: 16px;
+}
+.clickfortwittier {
+  font-size: 18px;
+}
+
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+form {
+  position: absolute;
+  left: 10px;
+  top: 378px;
+  font-size: 21px;
+}
+</style>
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+<body>
+
+<p>Adjust the size of nodes.</p>
+
+<div id="slidecontainer">
+  <input type="range" min="10" max="500" value="30" class="slider" id="myRange">
+</div>
+
+
+<form>
+    <p>Select display mode</p>
+    <label><input type="radio" name="mode" value="Centre"  checked="checked"> Centre</label>
+    <label><input type="radio" name="mode" value="Tree"> Tree</label>
+
+</form>
+
+</body>
+<script>
+
+//var nodes = {};
+
+// Compute the distinct nodes from the links.
+
+var w = 1700,
+    h = 1300,
+    r = 50,
+    l = 275,
+    base = 0.3,
+    svg,
+    force,
+    link,
+    node,
+    clip,
+    graph,
+    graphData,
+    metric = "degree",
+    scale = 1;
+var color = d3.scale.category20();
+
+var g_nodes,
+    nodes,
+    links;　
+
+
+svg = d3.select("body").append("svg")
+  .attr("width", w + l - 25 )
+  .attr("height", h)
+  .style("border", "3px solid #75aef4");
+
+graph = svg.append("g")
+  .attr("transform", "translate(" + l + ",10)");
+
+d3.selectAll("input").on("change", function change() {
+  if (this.value == "Tree") force.on("tick", treeTick);
+  else force.on("tick", cTick);
+});
+
+// varibale on inputs
+var slider = document.getElementById("myRange");
+
+slider.oninput = function() {
+  //output.innerHTML = this.value / 10;
+  base = this.value / 100;
+  graphTransition(base);
+} 
+function hideLayer(layer) {
+
+}
+function openLink() {
+    return function(d) {
+    window.open("http://weibo.com"+d['userHref'])
+  }
+}
+
+function graphTransition(base) {
+    d3.selectAll("circle")
+      .transition()
+        .duration(1000)
+        .attr("r", function(d) { return Math.sqrt(Math.sqrt(d['degree'] * base)) * 4 ; });
+}
+function setDetailLabels(labels) {
+  svg.selectAll(".nodetext").remove();
+  svg.selectAll("text.nodetext").data(labels).enter().append("svg:text")
+    .attr("class", "nodetext")
+    .text(function() { return this.__data__; })
+    .attr("x", 10)
+    .attr("y", function(d, i){ return (this.getBBox().height * 1.2) * (i+3.2)});  
+}
+function resetDetailLabels() {
+  svg.selectAll(".nodetext").remove();
+  labels = ["Name: ", "Degree: ", "Count: "];
+  setDetailLabels(labels);
+}
+        function treeTick(e) {
+                var k = 6 * e.alpha;
+              link.each(function(d) { d.source.y -= k, d.target.y += k; })
+              .attr("x1", function(d) { return Math.max(r, Math.min(w - l - r, d.source.x)); })
+              .attr("y1", function(d) { return Math.max(r, Math.min(h - r, d.source.y)); })
+              .attr("x2", function(d) { return Math.max(r, Math.min(w - l - r, d.target.x)); })
+              .attr("y2", function(d) { return Math.max(r, Math.min(h - r, d.target.y)); });
+
+              node.attr("transform", function(d) { 
+              return "translate("
+                + Math.max(r, Math.min(w - l - r, d.x)) 
+                + "," 
+                + Math.max(r, Math.min(h - r, d.y)) 
+                + ")";
+          }); 
+        }
+        function cTick() {
+              link
+              .attr("x1", function(d) { return Math.max(r, Math.min(w - l - r, d.source.x)); })
+              .attr("y1", function(d) { return Math.max(r, Math.min(h - r, d.source.y)); })
+              .attr("x2", function(d) { return Math.max(r, Math.min(w - l - r, d.target.x)); })
+              .attr("y2", function(d) { return Math.max(r, Math.min(h - r, d.target.y)); });
+
+              node.attr("transform", function(d) { 
+              return "translate("
+                + Math.max(r, Math.min(w - l - r, d.x)) 
+                + "," 
+                + Math.max(r, Math.min(h - r, d.y)) 
+                + ")";
+          }); 
+        }
+function drawGraph() {
+    force = d3.layout.force()
+      .gravity(1.5)
+      .linkDistance(60)
+      .charge(-100)
+      //.friction(0)
+      .size([w-l, h]);
+    d3.json("/json/new.json", function(json) {
+        graphData = json;
+        nodes = json.nodes;
+        links = json.links;
+        //.log(d3.values(g_nodes));
+        // Create usable nodes
+        /*
+        links.forEach(function(link) {
+            link.source = nodes[link.source] || (nodes[link.source] = {name: link.source});
+            //console.log(link.source);
+            link.target = nodes[link.target] || (nodes[link.target] = {name: link.target});
+        });
+        // Set attribute of nodes
+        g_nodes.forEach(function(g_node){
+            //console.log(nodes[g_node.id].name);
+            nodes[g_node.id].group = g_node.group;
+            nodes[g_node.id].layer = g_node.layer;
+            nodes[g_node.id].userHref = g_node.userHref;
+        });*/
+        // Set force
+        //console.log(d3.values(nodes));
+
+        force.nodes(nodes)
+            .links(links)
+            .start();
+        
+        // Set link
+        link = graph.selectAll(".link")
+        .data(json.links)
+        .enter().append("line")
+        .attr("class", "link");
+
+        //Set node
+        node = graph.selectAll(".node")
+        .data(json.nodes)
+        .enter().append("g")
+        .attr("class", "node")
+        .on("mouseover", mouseover())
+        .on("mouseout", mouseout())
+        .on("click", openLink())
+        .call(force.drag);
+
+        node.append("svg:circle")
+        //.attr("cx", function(d) { return d.x; })
+        //.attr("cy", function(d) { return d.y; })
+        .attr("r", function(d) {  return Math.sqrt(Math.sqrt(d['degree'] * base)) * 4 ; })
+        .style("fill", function(d) { return color(d['layer']); })
+        .attr("fill-opacity", function(d) { if (d['layer']==1) {return 0.7} else {return 1} })
+        //.style("stroke", "#000")
+        //.style("stroke-width", 0.0001)
+        .attr("class","circle");
+
+
+    svg.append("svg:rect")
+      .attr("class", "rankingBG")
+      .attr("x", w + 20)
+      .attr("y", -2)
+      .attr("width", l)
+      .attr("height", h + 4)
+      .style("fill", "#ddd")
+      .style("stroke", "#000")
+      .style("stroke-width", 3);
+    svg.append("svg:text")
+      .attr("class", "rankingtitle")
+      .text("Ranking")
+      .attr("x", w + 88)
+      .attr("y", 33);
+    svg.selectAll(".rankingnum")
+      .data(d3.range(1,51))
+    .enter().append("svg:text")
+      .attr("class", "rankingnum")
+      .text(function(d) { return d + ":"; })
+      .attr("x", w + 50)
+      .attr("text-anchor","end")
+      .attr("y", function(d, i) { return i * 25 + 63; });
+
+          
+
+        drawRanking(graphData);
+        
+        force.on("tick", cTick);
+
+
+    });
+}
+function compareVals(a, b) {
+  return a < b ? 1 : a == b ? 0 : -1;
+}
+function drawRanking(data) {
+  svg.selectAll(".rankingtext")
+      .data(data.nodes)
+    .enter().append("svg:text")
+      .sort(function (a, b) { return compareVals(a['degree'], b['degree']); })
+      .attr("class", function(d) { return "rankingtext id" + d['id'];} )
+      .text(function(d, i) { return d['name']; })
+      .attr("x", w + 63)
+      .attr("y", function(d, i) { return i * 25 + 63; });
+}
+function transitionRanking(metric) {
+  svg.selectAll(".rankingtext")
+    .sort(function (a, b) { return compareVals(a['degree'], b['degree']); })
+    .transition()
+      .duration(2000)
+      .attr("y", function(d, i) { return i * 25 + 63; });  
+}
+function mouseover() {
+    return function(d,i) {    
+    svg.selectAll(".nodetext").remove();
+    labels = [];
+    labels.push("Name: " + d["name"], "Degree: " + d['degree'], "Count: " + d['cnt']);
+    setDetailLabels(labels);
+    /*
+    d3.select(this).select("circle").transition()
+      .duration(200)
+      .attr("r", 20);*/
+    }
+}
+
+function mouseout() {
+
+    return function(d,i) {    
+        resetDetailLabels();
+        //d3.select(this).select("circle").transition()
+        //.attr("r", base);
+        
+    }
+}
+
+drawGraph();
+resetDetailLabels();
+</script>
+</body></html>
