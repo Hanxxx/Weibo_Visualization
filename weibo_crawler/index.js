@@ -1,6 +1,6 @@
 "use strict";
-const weiboLogin = require('./lib/weibo_login.js').weiboLogin;
-const handle = require('./handleData/handle').handle;
+const weiboLogin = require('./lib/login.js').weiboLogin;
+const handle = require('./lib/crawler').handle;
 const request = require('request');
 const fs = require('fs');
 const querystring = require('querystring');
